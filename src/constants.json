@@ -1,0 +1,8 @@
+{
+    "APP_NAME": "170toWin",
+    "SUPPORTED_LANGUAGES": [
+        {"key": "eng", "name": "English"},
+        {"key": "fra", "name": "Français"}
+    ],
+    "REFERRAL": "https://jeanromainroy.com"
+}

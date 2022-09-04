@@ -1,0 +1,7 @@
+[
+    { "name": "Coalition avenir Québec - L'équipe François Legault", "key": "CAQ", "color": "#06B5FF" },
+    { "name": "Parti libéral du Québec/Quebec Liberal Party", "key": "PLQ", "color": "#F7070F" },
+    { "name": "Parti conservateur du Québec - Équipe Éric Duhaime", "key": "PCQ", "color": "#0A0095" },
+    { "name": "Québec solidaire", "key": "QS", "color": "#FFA406" },
+    { "name": "Parti québécois", "key": "PQ", "color": "#75B6FF" }
+]

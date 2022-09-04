@@ -1,0 +1,22 @@
+{
+    "footer": {
+        "eng": "<p>For inquiries contact <a>170towin@gmail.com</a></p>",
+        "fra": "<p>Pour nous rejoindre, contactez <a>170towin@gmail.com</a></p>"
+    },
+    "short_title": {
+        "eng": "Towards a Majority Government",
+        "fra": "Vers un Gouvernement Majoritaire"
+    },
+    "title": {
+        "eng": "Welcome to 170 to win!",
+        "fra": "Bienvenue à 170 to win!"
+    },
+    "description": {
+        "eng": "<p>Use this interactive map to chart out your own election results riding by riding, and compare your results with your friends.</p><p>As some of you may know, not at all ridings are created equal. Elections are won and lost on a few potential swing ridings. In order to reflect that, the default riding selection is the result of the 2019 federal election, minus the ridings won and lost by less than a 5% margin.</p><p>What's your path to power?</p>",
+        "fra": "<p>Utilisez cette carte interactive pour tracer votre propre chemin vers un gouvernement majoritaire. Sélectionnez, circonscription par circonscription, un résultat électoral et comparez vos résultats avec vos amis.</p><p>Malheureusement, toutes les circonscriptions ne sont pas égales. Des élections sont gagnées et perdues lorsque seulement quelques circonscriptions baromètre changent de parti. Afin de prendre cette réalité en compte, la situation initiale de la carte reflète le résultat de l'élection fédérale de 2019, moins les circonscriptions gagnées et perdues par une marge de moins de 5 %.</p><p>Quel est votre chemin vers le pouvoir ?</p>"
+    },
+    "reset": {
+        "eng": "Reset",
+        "fra": "Réinitialiser"
+    }
+}
