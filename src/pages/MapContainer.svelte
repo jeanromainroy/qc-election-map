@@ -360,26 +360,33 @@
     <Map bind:projection={projection} bind:map={map} bind:paths={paths} bind:svg={svg} bind:g={g} bind:tooltip={tooltip}/>
 </div>
 
-<br><br>
-
 
 <!-- The seats count -->
-<Table data={seats_tabular}/>
-
-<br><br>
-
-<Button onclick={() => { reset(); }} string_key='reset' bind:lang={lang}/>
-
-<br><br>
+<div id="seatscontainer">
+    <Table data={seats_tabular}/>
+    <!-- <Button onclick={() => { reset(); }} string_key='reset' bind:lang={lang}/> -->
+</div>
 
 <style>
 
     #mapcontainer{
-        position: relative;
-        width: 65vw;
-        height: 65vh;
-        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: calc(32px + var(--font-size-normal));
         background-color: white;
+    }
+
+    #seatscontainer {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        margin: 0px auto;
+        background-color: white;
+        padding: 16px;
+        border-top: 0.5px solid black;
     }
 
 </style>

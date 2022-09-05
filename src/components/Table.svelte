@@ -204,7 +204,7 @@
         padding: 8px 0px 8px;
         overflow: hidden;
         word-wrap:break-word;
-        background-color: white;
+        background-color: transparent;
         line-height: var(--line-height-small);
     }
 
@@ -223,7 +223,7 @@
 
     .value {
         font-weight: var(--font-normal);
-        font-size: var(--font-size-very-very-very-small);
+        font-size: var(--font-size-small);
         /* text-transform: lowercase; */
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -231,7 +231,7 @@
 
     .header {
         font-weight: var(--font-bold);
-        font-size: var(--font-size-very-very-small);
+        font-size: var(--font-size-normal);
     }
 
     ::-webkit-scrollbar {

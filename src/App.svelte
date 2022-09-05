@@ -55,10 +55,10 @@
 {#if ready}
     {#if init_successful}
         <main>
-            <p class="title" style="text-align: center; margin-bottom: 32px;">{getString(lang, 'title')}</p>
+            <!-- <p class="title" style="text-align: center; margin-bottom: 32px;">{getString(lang, 'title')}</p>
             <div class="description">
                 {@html getString(lang, 'description')}
-            </div>
+            </div> -->
             <MapContainer bind:lang={lang} bind:title={title} parties={parties} districts_geojson={districts_geojson} results={results['circonscriptions']}/>
         </main>
     {/if}

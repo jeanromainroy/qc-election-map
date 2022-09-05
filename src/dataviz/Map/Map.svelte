@@ -75,7 +75,6 @@
         background-color: #fff;
         overflow: hidden;
         z-index: 0;
-        border: 1px solid black;
     }
 
     :global(path) {

@@ -17,5 +17,5 @@ app.use(express.static('public', ));
 
 // start server
 const server = app.listen(APP_PORT, () => {
-	console.log(`portfolio is running on port - ${APP_PORT}`);
+	console.log(`portfolio is running on - http://localhost:${APP_PORT}`);
 });
