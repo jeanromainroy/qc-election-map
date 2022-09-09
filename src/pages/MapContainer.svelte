@@ -1,23 +1,20 @@
 <script>
 
     // properties
-    export let lang;
     export let districts_geojson;
     export let parties;
-    export let results;
-    export let title;
+    export let last_election_results;
+    export let conscriptions_names;
+    export let seats_selection;
 
-    // d3 lib
+    // import libs
     import * as d3 from 'd3';
-
-    // leaflet
     import * as L from 'leaflet';
+    import { onMount } from 'svelte';
+    import { create_mapping_of_last_election_results, export_selection } from './scripts.js';
 
     // import svelte components
     import Map from '../dataviz/Map/Map.svelte';
-
-    // import ui libs
-    import { onMount } from 'svelte';
 
     // is mobile
     import { isMobile } from '../libs/system';
@@ -38,46 +35,33 @@
     const parties_map = {}
     parties.forEach(party => parties_map[party['key']] = party)
 
-    // create a mapping of the results
-    const results_map = {}
-    results.forEach(r => {
+    // create mapping of the last election results
+    const last_election_results_map = create_mapping_of_last_election_results(last_election_results);
 
-        // grab key
-        const { nomCirconscription } = r;
-
-        // init
-        results_map[nomCirconscription] = r
-    })
-    Object.keys(results_map).forEach(nomCirconscription => {
-        
-        // grab the elected
-        const elected_candidate = results_map[nomCirconscription]['candidats'].reduce((prev, curr) => {
-            return prev['nbVoteTotal'] > curr['nbVoteTotal'] ? prev : curr;
-        });
-
-        // destructure
-        const { nom, prenom, abreviationPartiPolitique } = elected_candidate;
-
-        // init
-        results_map[nomCirconscription]['party'] = '';
-
-        // go through parties
-        parties.forEach(party => {
-            if (abreviationPartiPolitique === party['key']) {
-                results_map[nomCirconscription]['party'] = party['key']
-            }
-        })
-    })
 
     // init seat count
     let seats = {}
-    let seats_tabular = null;
-    let nbr_districts = 0;
-    let nbr_districts_selected = 0;
 
     function getToolTipText (d) {
+        
+        // destructure
         const { name } = d['properties']
-        return `<p style='font-size: 12px;'>${name.trim()}</p>`
+
+        // last election results
+        const results = last_election_results_map[name];
+        
+        // check
+        if (results === undefined || results === null) {
+            return `<p style='font-size: 14px;>${name.trim()}</p>`
+        }
+
+        // format candidates
+        const candidates_str = results['candidats'].map(d => {
+            return `<p style='font-size: 11px;'>${d['tauxVote']}%, ${d['abreviationPartiPolitique']}</p>`
+        }).slice(0, 3).join('')
+
+        // return html
+        return `<p style='font-size: 14px;'>${name.trim()}</p><p style='font-size: 11px; text-decoration: underline; margin-top: 8px;'>Last Election</p>${candidates_str}`
     }
 
     function reset(){
@@ -85,7 +69,6 @@
         reset_map();
         setResults();
         update_count();
-        // update_title();
     }
 
     function reset_map(){
@@ -133,26 +116,6 @@
         return Object.keys(districts).map(k => districts[k]);
     }
 
-    function update_title(){
-
-        // group seats by parties
-        const counts = Object.keys(seats).map(party => {
-            return [party, +seats[party]['total']]
-        })
-
-        // sort in descending order
-        counts.sort((a, b) => b[1] - a[1])
-
-        // set title
-        if (counts[0][1] === counts[1][1]){
-            title = 'Hung parliament'
-        }else if(counts[0][1] >= 170){
-            title = `${counts[0][0]} majority`
-        }else if(counts[0][1] < 170){
-            title = `${counts[0][0]} minority`
-        }
-    }
-
     function update_count(){
 
         // get data from map districts
@@ -160,10 +123,6 @@
 
         // reset to 0
         reset_count();
-
-        // set topline metrics
-        nbr_districts = districts.length;
-        nbr_districts_selected = districts.filter(d => d['party'] !== undefined && d['party'] !== null).length;
 
         // grab data from map
         Object.keys(districts).forEach(uid => {
@@ -304,11 +263,12 @@
                 const name = d3.select(this).data()[0]['properties']['name'];
 
                 // check
-                if (results_map[name] === undefined || results_map[name] === null) {
+                console.log(seats_selection)
+                if (seats_selection[name] === undefined || seats_selection[name] === null) {
                     return;
                 }
 
-                const party = results_map[name]['party'];
+                const party = seats_selection[name];
 
                 // check
                 if (party === undefined || party === null || party.length === 0) {
@@ -332,10 +292,19 @@
 
         // reset
         reset();
-    })
-    
+    });    
+
+
+    function _export_selection(){
+        const signature = export_selection(parties.map(d => d['key']), conscriptions_names, get_districs_data_from_map());
+        window.open(`${window.location.href.split('?')[0]}?seats=${signature}`, '_blank').focus();
+    }
 
 </script>
+
+
+<!-- Share Button -->
+<button id="share-button" on:click={_export_selection}>Share</button>
 
 
 <!-- The Map -->
@@ -377,6 +346,31 @@
 </div>
 
 <style>
+
+
+    /* Dev */
+    #share-button {
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        z-index: 999;
+        background-color: var(--main-color);
+        color: #fff;
+        outline: none;
+        user-select: none;
+        border: none;
+        border-radius: 6px;
+        padding: 16px;
+        font-size: var(--font-size-normal);
+        font-family: var(--font-noto);
+        box-shadow: var(--box-shadow-dark);
+        cursor: pointer;
+    }
+
+    #share-button:hover {
+        filter: brightness(1.2);
+    }
+
 
     #mapcontainer{
         position: absolute;

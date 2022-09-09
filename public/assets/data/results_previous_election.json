@@ -44,7 +44,7 @@
             {
                 "numeroPartiPolitique": 10,
                 "nomPartiPolitique": "Parti vert du Québec/Green Party of Québec",
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 67870,
                 "tauxVoteTotal": 1.6826,
                 "nbCirconscriptionsEnAvance": 0,
@@ -64,7 +64,7 @@
             {
                 "numeroPartiPolitique": 34,
                 "nomPartiPolitique": "Nouveau Parti démocratique du Québec",
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 22863,
                 "tauxVoteTotal": 0.5668,
                 "nbCirconscriptionsEnAvance": 0,
@@ -74,7 +74,7 @@
             {
                 "numeroPartiPolitique": 31,
                 "nomPartiPolitique": "Citoyens au pouvoir du Québec",
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 13768,
                 "tauxVoteTotal": 0.3413,
                 "nbCirconscriptionsEnAvance": 0,
@@ -94,7 +94,7 @@
             {
                 "numeroPartiPolitique": 2,
                 "nomPartiPolitique": "Bloc pot",
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 4657,
                 "tauxVoteTotal": 0.1155,
                 "nbCirconscriptionsEnAvance": 0,
@@ -104,7 +104,7 @@
             {
                 "numeroPartiPolitique": 23,
                 "nomPartiPolitique": "Parti nul",
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 3659,
                 "tauxVoteTotal": 0.0907,
                 "nbCirconscriptionsEnAvance": 0,
@@ -114,7 +114,7 @@
             {
                 "numeroPartiPolitique": 7,
                 "nomPartiPolitique": "Parti marxiste-léniniste du Québec",
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 1708,
                 "tauxVoteTotal": 0.0423,
                 "nbCirconscriptionsEnAvance": 0,
@@ -134,7 +134,7 @@
             {
                 "numeroPartiPolitique": 29,
                 "nomPartiPolitique": "Équipe autonomiste",
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 1138,
                 "tauxVoteTotal": 0.0282,
                 "nbCirconscriptionsEnAvance": 0,
@@ -154,7 +154,7 @@
             {
                 "numeroPartiPolitique": 36,
                 "nomPartiPolitique": "Changement intégrité pour notre Québec",
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 693,
                 "tauxVoteTotal": 0.0172,
                 "nbCirconscriptionsEnAvance": 0,
@@ -174,7 +174,7 @@
             {
                 "numeroPartiPolitique": 45,
                 "nomPartiPolitique": "Voie du peuple",
-                "abreviationPartiPolitique": "V.P.",
+                "abreviationPartiPolitique": "VP",
                 "nbVoteTotal": 190,
                 "tauxVoteTotal": 0.0047,
                 "nbCirconscriptionsEnAvance": 0,
@@ -268,7 +268,7 @@
                 "nom": "Paquette",
                 "prenom": "Mélina",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 356,
                 "tauxVote": 1.7,
                 "nbVoteAvance": 0
@@ -278,7 +278,7 @@
                 "nom": "Caron",
                 "prenom": "Éric",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 355,
                 "tauxVote": 1.69,
                 "nbVoteAvance": 0
@@ -345,7 +345,7 @@
                 "nom": "Lévesque",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 388,
                 "tauxVote": 1.72,
                 "nbVoteAvance": 0
@@ -355,7 +355,7 @@
                 "nom": "Couture",
                 "prenom": "Yan-Dominic",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 254,
                 "tauxVote": 1.13,
                 "nbVoteAvance": 0
@@ -442,7 +442,7 @@
                 "nom": "Sicotte",
                 "prenom": "Laurence",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 737,
                 "tauxVote": 2.77,
                 "nbVoteAvance": 0
@@ -462,7 +462,7 @@
                 "nom": "Welt",
                 "prenom": "Michel",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 442,
                 "tauxVote": 1.66,
                 "nbVoteAvance": 0
@@ -472,7 +472,7 @@
                 "nom": "Breton",
                 "prenom": "Yvon",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 87,
                 "tauxVote": 0.33,
                 "nbVoteAvance": 0
@@ -539,7 +539,7 @@
                 "nom": "Madani",
                 "prenom": "Hamza",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 519,
                 "tauxVote": 1.88,
                 "nbVoteAvance": 0
@@ -549,7 +549,7 @@
                 "nom": "Henes",
                 "prenom": "Vincent",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 256,
                 "tauxVote": 0.93,
                 "nbVoteAvance": 0
@@ -626,7 +626,7 @@
                 "nom": "Thériault",
                 "prenom": "Carole",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 552,
                 "tauxVote": 1.81,
                 "nbVoteAvance": 0
@@ -656,7 +656,7 @@
                 "nom": "Wiseman",
                 "prenom": "Louise",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 135,
                 "tauxVote": 0.44,
                 "nbVoteAvance": 0
@@ -733,7 +733,7 @@
                 "nom": "Pelland",
                 "prenom": "Jean-Charles",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 620,
                 "tauxVote": 1.5,
                 "nbVoteAvance": 0
@@ -820,7 +820,7 @@
                 "nom": "Goulet",
                 "prenom": "Nicole",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 334,
                 "tauxVote": 1.11,
                 "nbVoteAvance": 0
@@ -907,7 +907,7 @@
                 "nom": "Poulin",
                 "prenom": "Cassandre",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 500,
                 "tauxVote": 1.5,
                 "nbVoteAvance": 0
@@ -917,7 +917,7 @@
                 "nom": "Paquet",
                 "prenom": "Jean",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 170,
                 "tauxVote": 0.51,
                 "nbVoteAvance": 0
@@ -984,7 +984,7 @@
                 "nom": "Mantion",
                 "prenom": "François",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 459,
                 "tauxVote": 1.43,
                 "nbVoteAvance": 0
@@ -994,7 +994,7 @@
                 "nom": "Mathieu",
                 "prenom": "Tommy",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 429,
                 "tauxVote": 1.34,
                 "nbVoteAvance": 0
@@ -1081,7 +1081,7 @@
                 "nom": "Guay",
                 "prenom": "Simon",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 200,
                 "tauxVote": 0.66,
                 "nbVoteAvance": 0
@@ -1158,7 +1158,7 @@
                 "nom": "St-Jean",
                 "prenom": "Jérôme",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 687,
                 "tauxVote": 1.72,
                 "nbVoteAvance": 0
@@ -1168,7 +1168,7 @@
                 "nom": "Bourdon",
                 "prenom": "Rémi",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 467,
                 "tauxVote": 1.17,
                 "nbVoteAvance": 0
@@ -1235,7 +1235,7 @@
                 "nom": "Alarie",
                 "prenom": "Natacha",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 613,
                 "tauxVote": 1.84,
                 "nbVoteAvance": 0
@@ -1255,7 +1255,7 @@
                 "nom": "Pigeon",
                 "prenom": "Benoît",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 197,
                 "tauxVote": 0.59,
                 "nbVoteAvance": 0
@@ -1332,7 +1332,7 @@
                 "nom": "Fortier",
                 "prenom": "Valérie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1146,
                 "tauxVote": 2.7,
                 "nbVoteAvance": 0
@@ -1342,7 +1342,7 @@
                 "nom": "Gervais",
                 "prenom": "Thierry",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 286,
                 "tauxVote": 0.67,
                 "nbVoteAvance": 0
@@ -1352,7 +1352,7 @@
                 "nom": "Bastien",
                 "prenom": "Jean",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 254,
                 "tauxVote": 0.6,
                 "nbVoteAvance": 0
@@ -1429,7 +1429,7 @@
                 "nom": "Imhoff",
                 "prenom": "Heather",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 312,
                 "tauxVote": 1.43,
                 "nbVoteAvance": 0
@@ -1439,7 +1439,7 @@
                 "nom": "Bouchard",
                 "prenom": "Daniel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 209,
                 "tauxVote": 0.96,
                 "nbVoteAvance": 0
@@ -1506,7 +1506,7 @@
                 "nom": "Gravel",
                 "prenom": "Nicolas",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 836,
                 "tauxVote": 1.92,
                 "nbVoteAvance": 0
@@ -1526,7 +1526,7 @@
                 "nom": "Martin",
                 "prenom": "André",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 184,
                 "tauxVote": 0.42,
                 "nbVoteAvance": 0
@@ -1536,7 +1536,7 @@
                 "nom": "Thévenot",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 164,
                 "tauxVote": 0.38,
                 "nbVoteAvance": 0
@@ -1546,7 +1546,7 @@
                 "nom": "E.",
                 "prenom": "Razz",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 135,
                 "tauxVote": 0.31,
                 "nbVoteAvance": 0
@@ -1613,7 +1613,7 @@
                 "nom": "Barros",
                 "prenom": "Karina",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 433,
                 "tauxVote": 1.74,
                 "nbVoteAvance": 0
@@ -1633,7 +1633,7 @@
                 "nom": "Louis",
                 "prenom": "Abed",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 219,
                 "tauxVote": 0.88,
                 "nbVoteAvance": 0
@@ -1643,7 +1643,7 @@
                 "nom": "Brunet",
                 "prenom": "Jean-François",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 177,
                 "tauxVote": 0.71,
                 "nbVoteAvance": 0
@@ -1653,7 +1653,7 @@
                 "nom": "Laouadi",
                 "prenom": "Sabrinel",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 142,
                 "tauxVote": 0.57,
                 "nbVoteAvance": 0
@@ -1730,7 +1730,7 @@
                 "nom": "Hassell-Crépeau",
                 "prenom": "Marieke",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 719,
                 "tauxVote": 2.23,
                 "nbVoteAvance": 0
@@ -1740,7 +1740,7 @@
                 "nom": "Roy",
                 "prenom": "Dany",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 200,
                 "tauxVote": 0.62,
                 "nbVoteAvance": 0
@@ -1750,7 +1750,7 @@
                 "nom": "Brunelle",
                 "prenom": "Claude",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 80,
                 "tauxVote": 0.25,
                 "nbVoteAvance": 0
@@ -1817,7 +1817,7 @@
                 "nom": "Dionne",
                 "prenom": "Elisabeth",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 978,
                 "tauxVote": 2.36,
                 "nbVoteAvance": 0
@@ -1827,7 +1827,7 @@
                 "nom": "Gamache",
                 "prenom": "Manon",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 247,
                 "tauxVote": 0.6,
                 "nbVoteAvance": 0
@@ -1837,7 +1837,7 @@
                 "nom": "Alarie",
                 "prenom": "Marc",
                 "numeroPartiPolitique": 45,
-                "abreviationPartiPolitique": "V.P.",
+                "abreviationPartiPolitique": "VP",
                 "nbVoteTotal": 190,
                 "tauxVote": 0.46,
                 "nbVoteAvance": 0
@@ -1904,7 +1904,7 @@
                 "nom": "Jannard",
                 "prenom": "Camille B.",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 683,
                 "tauxVote": 1.81,
                 "nbVoteAvance": 0
@@ -1924,7 +1924,7 @@
                 "nom": "Létourneau",
                 "prenom": "Gilles",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 180,
                 "tauxVote": 0.48,
                 "nbVoteAvance": 0
@@ -1934,7 +1934,7 @@
                 "nom": "Vachon",
                 "prenom": "Benjamin",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 167,
                 "tauxVote": 0.44,
                 "nbVoteAvance": 0
@@ -1944,7 +1944,7 @@
                 "nom": "Guindon",
                 "prenom": "Gilles",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 66,
                 "tauxVote": 0.18,
                 "nbVoteAvance": 0
@@ -2011,7 +2011,7 @@
                 "nom": "Dufresne",
                 "prenom": "Stéphanie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 789,
                 "tauxVote": 1.93,
                 "nbVoteAvance": 0
@@ -2031,7 +2031,7 @@
                 "nom": "Rouss",
                 "prenom": "Anthony",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 164,
                 "tauxVote": 0.4,
                 "nbVoteAvance": 0
@@ -2041,7 +2041,7 @@
                 "nom": "Gauthier",
                 "prenom": "Éric",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 126,
                 "tauxVote": 0.31,
                 "nbVoteAvance": 0
@@ -2118,7 +2118,7 @@
                 "nom": "Roy",
                 "prenom": "Françoise",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 182,
                 "tauxVote": 0.56,
                 "nbVoteAvance": 0
@@ -2195,7 +2195,7 @@
                 "nom": "Pelletier",
                 "prenom": "Daniel",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 212,
                 "tauxVote": 0.51,
                 "nbVoteAvance": 0
@@ -2262,7 +2262,7 @@
                 "nom": "Bouchard",
                 "prenom": "Andréanne",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 330,
                 "tauxVote": 0.95,
                 "nbVoteAvance": 0
@@ -2272,7 +2272,7 @@
                 "nom": "Chiasson",
                 "prenom": "Albert",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 292,
                 "tauxVote": 0.84,
                 "nbVoteAvance": 0
@@ -2339,7 +2339,7 @@
                 "nom": "Stevenson",
                 "prenom": "Stephanie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 624,
                 "tauxVote": 1.89,
                 "nbVoteAvance": 0
@@ -2359,7 +2359,7 @@
                 "nom": "Masucci-Lauzon",
                 "prenom": "Marie-Ève",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 310,
                 "tauxVote": 0.94,
                 "nbVoteAvance": 0
@@ -2436,7 +2436,7 @@
                 "nom": "Isufi",
                 "prenom": "Sabir",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 613,
                 "tauxVote": 1.57,
                 "nbVoteAvance": 0
@@ -2446,7 +2446,7 @@
                 "nom": "Belleau",
                 "prenom": "Mona",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 286,
                 "tauxVote": 0.73,
                 "nbVoteAvance": 0
@@ -2513,7 +2513,7 @@
                 "nom": "Philippe",
                 "prenom": "Tommy",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 551,
                 "tauxVote": 1.78,
                 "nbVoteAvance": 0
@@ -2600,7 +2600,7 @@
                 "nom": "Kabbaj",
                 "prenom": "Fatine",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 538,
                 "tauxVote": 1.77,
                 "nbVoteAvance": 0
@@ -2610,7 +2610,7 @@
                 "nom": "El-Harrache",
                 "prenom": "Omar",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 276,
                 "tauxVote": 0.91,
                 "nbVoteAvance": 0
@@ -2687,7 +2687,7 @@
                 "nom": "Blais",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 341,
                 "tauxVote": 0.79,
                 "nbVoteAvance": 0
@@ -2697,7 +2697,7 @@
                 "nom": "Henry",
                 "prenom": "Evelyne",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 301,
                 "tauxVote": 0.69,
                 "nbVoteAvance": 0
@@ -2774,7 +2774,7 @@
                 "nom": "Blais",
                 "prenom": "Renaud",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 304,
                 "tauxVote": 0.93,
                 "nbVoteAvance": 0
@@ -2784,7 +2784,7 @@
                 "nom": "Dubé",
                 "prenom": "Gabriel",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 238,
                 "tauxVote": 0.73,
                 "nbVoteAvance": 0
@@ -2851,7 +2851,7 @@
                 "nom": "Alarco",
                 "prenom": "Jérémie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 837,
                 "tauxVote": 3.26,
                 "nbVoteAvance": 0
@@ -2871,7 +2871,7 @@
                 "nom": "Smit",
                 "prenom": "Leigh",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 368,
                 "tauxVote": 1.43,
                 "nbVoteAvance": 0
@@ -2881,7 +2881,7 @@
                 "nom": "Johnston",
                 "prenom": "Diane",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 77,
                 "tauxVote": 0.3,
                 "nbVoteAvance": 0
@@ -2948,7 +2948,7 @@
                 "nom": "Dagenais",
                 "prenom": "Isabelle",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 722,
                 "tauxVote": 2.14,
                 "nbVoteAvance": 0
@@ -2968,7 +2968,7 @@
                 "nom": "Paré",
                 "prenom": "Denis",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 322,
                 "tauxVote": 0.95,
                 "nbVoteAvance": 0
@@ -2988,7 +2988,7 @@
                 "nom": "Roker Jr",
                 "prenom": "Hans",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 152,
                 "tauxVote": 0.45,
                 "nbVoteAvance": 0
@@ -2998,7 +2998,7 @@
                 "nom": "Emond",
                 "prenom": "Eric",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 52,
                 "tauxVote": 0.15,
                 "nbVoteAvance": 0
@@ -3085,7 +3085,7 @@
                 "nom": "Therion",
                 "prenom": "Steve",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 106,
                 "tauxVote": 0.3,
                 "nbVoteAvance": 0
@@ -3162,7 +3162,7 @@
                 "nom": "Bélanger",
                 "prenom": "Line",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 445,
                 "tauxVote": 1.7,
                 "nbVoteAvance": 0
@@ -3296,7 +3296,7 @@
                 "nom": "Gilbert-Parisée",
                 "prenom": "David",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 861,
                 "tauxVote": 2.66,
                 "nbVoteAvance": 0
@@ -3316,7 +3316,7 @@
                 "nom": "Mahmoodi",
                 "prenom": "Karim",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 279,
                 "tauxVote": 0.86,
                 "nbVoteAvance": 0
@@ -3440,7 +3440,7 @@
                 "nom": "Boychuk",
                 "prenom": "Jasper",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1271,
                 "tauxVote": 3.64,
                 "nbVoteAvance": 0
@@ -3460,7 +3460,7 @@
                 "nom": "Deschênes",
                 "prenom": "Alexandre",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 71,
                 "tauxVote": 0.2,
                 "nbVoteAvance": 0
@@ -3527,7 +3527,7 @@
                 "nom": "Sécheresse",
                 "prenom": "Alice",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1049,
                 "tauxVote": 3.45,
                 "nbVoteAvance": 0
@@ -3537,7 +3537,7 @@
                 "nom": "Cartwright",
                 "prenom": "Jenny",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 246,
                 "tauxVote": 0.81,
                 "nbVoteAvance": 0
@@ -3547,7 +3547,7 @@
                 "nom": "da Silva",
                 "prenom": "Ana",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 110,
                 "tauxVote": 0.36,
                 "nbVoteAvance": 0
@@ -3614,7 +3614,7 @@
                 "nom": "Poulin",
                 "prenom": "Daphné",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 531,
                 "tauxVote": 1.47,
                 "nbVoteAvance": 0
@@ -3634,7 +3634,7 @@
                 "nom": "Deschamps",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 158,
                 "tauxVote": 0.44,
                 "nbVoteAvance": 0
@@ -3644,7 +3644,7 @@
                 "nom": "Robidas",
                 "prenom": "Kevin",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 119,
                 "tauxVote": 0.33,
                 "nbVoteAvance": 0
@@ -3721,7 +3721,7 @@
                 "nom": "Dick",
                 "prenom": "Robin",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 802,
                 "tauxVote": 2.21,
                 "nbVoteAvance": 0
@@ -3741,7 +3741,7 @@
                 "nom": "Lavoie",
                 "prenom": "Chantal",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 235,
                 "tauxVote": 0.65,
                 "nbVoteAvance": 0
@@ -3808,7 +3808,7 @@
                 "nom": "Baland",
                 "prenom": "Eric-Abel",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 337,
                 "tauxVote": 1.26,
                 "nbVoteAvance": 0
@@ -3818,7 +3818,7 @@
                 "nom": "Mallette",
                 "prenom": "Etienne",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 170,
                 "tauxVote": 0.64,
                 "nbVoteAvance": 0
@@ -3838,7 +3838,7 @@
                 "nom": "Boily",
                 "prenom": "Gabriel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 117,
                 "tauxVote": 0.44,
                 "nbVoteAvance": 0
@@ -3848,7 +3848,7 @@
                 "nom": "Dandenault",
                 "prenom": "Christine",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 52,
                 "tauxVote": 0.19,
                 "nbVoteAvance": 0
@@ -3915,7 +3915,7 @@
                 "nom": "Pilon",
                 "prenom": "Patricia",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1099,
                 "tauxVote": 3.53,
                 "nbVoteAvance": 0
@@ -3925,7 +3925,7 @@
                 "nom": "St-Jean",
                 "prenom": "Nichola",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 721,
                 "tauxVote": 2.31,
                 "nbVoteAvance": 0
@@ -3945,7 +3945,7 @@
                 "nom": "Jetté",
                 "prenom": "Marco",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 69,
                 "tauxVote": 0.22,
                 "nbVoteAvance": 0
@@ -3955,7 +3955,7 @@
                 "nom": "Soublière",
                 "prenom": "Pierre",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 56,
                 "tauxVote": 0.18,
                 "nbVoteAvance": 0
@@ -4022,7 +4022,7 @@
                 "nom": "Haliburton",
                 "prenom": "Victoria Mary",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 444,
                 "tauxVote": 1.54,
                 "nbVoteAvance": 0
@@ -4042,7 +4042,7 @@
                 "nom": "Orme",
                 "prenom": "Charles",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 126,
                 "tauxVote": 0.44,
                 "nbVoteAvance": 0
@@ -4109,7 +4109,7 @@
                 "nom": "Kolatschek",
                 "prenom": "Michelle",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 631,
                 "tauxVote": 1.89,
                 "nbVoteAvance": 0
@@ -4129,7 +4129,7 @@
                 "nom": "Renaud",
                 "prenom": "Marc-André",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 269,
                 "tauxVote": 0.81,
                 "nbVoteAvance": 0
@@ -4139,7 +4139,7 @@
                 "nom": "Desjardins",
                 "prenom": "Dany",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 258,
                 "tauxVote": 0.77,
                 "nbVoteAvance": 0
@@ -4243,7 +4243,7 @@
                 "nom": "Polson",
                 "prenom": "Catherine",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1981,
                 "tauxVote": 6.73,
                 "nbVoteAvance": 0
@@ -4283,7 +4283,7 @@
                 "nom": "Séguin",
                 "prenom": "France",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 555,
                 "tauxVote": 1.89,
                 "nbVoteAvance": 0
@@ -4303,7 +4303,7 @@
                 "nom": "Bouchard",
                 "prenom": "Cynthia",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 72,
                 "tauxVote": 0.24,
                 "nbVoteAvance": 0
@@ -4380,7 +4380,7 @@
                 "nom": "Côté",
                 "prenom": "Raymond",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 399,
                 "tauxVote": 1.34,
                 "nbVoteAvance": 0
@@ -4390,7 +4390,7 @@
                 "nom": "Paradis-Bellefeuille",
                 "prenom": "Alex",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 343,
                 "tauxVote": 1.15,
                 "nbVoteAvance": 0
@@ -4400,7 +4400,7 @@
                 "nom": "Verreault-Lemieux",
                 "prenom": "Charles",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 192,
                 "tauxVote": 0.64,
                 "nbVoteAvance": 0
@@ -4410,7 +4410,7 @@
                 "nom": "Deschênes",
                 "prenom": "Marie-Pierre",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 149,
                 "tauxVote": 0.5,
                 "nbVoteAvance": 0
@@ -4420,7 +4420,7 @@
                 "nom": "Bouffard-Savoie",
                 "prenom": "Nicolas",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 52,
                 "tauxVote": 0.17,
                 "nbVoteAvance": 0
@@ -4430,7 +4430,7 @@
                 "nom": "Moreau",
                 "prenom": "Claude",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 44,
                 "tauxVote": 0.15,
                 "nbVoteAvance": 0
@@ -4497,7 +4497,7 @@
                 "nom": "Hétu",
                 "prenom": "Sylvie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 570,
                 "tauxVote": 2.08,
                 "nbVoteAvance": 0
@@ -4517,7 +4517,7 @@
                 "nom": "Colly",
                 "prenom": "Garnet",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 83,
                 "tauxVote": 0.3,
                 "nbVoteAvance": 0
@@ -4594,7 +4594,7 @@
                 "nom": "Diab",
                 "prenom": "Macarena",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 610,
                 "tauxVote": 1.8,
                 "nbVoteAvance": 0
@@ -4614,7 +4614,7 @@
                 "nom": "Nadji",
                 "prenom": "Hamid",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 197,
                 "tauxVote": 0.58,
                 "nbVoteAvance": 0
@@ -4624,7 +4624,7 @@
                 "nom": "Pouleur",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 64,
                 "tauxVote": 0.19,
                 "nbVoteAvance": 0
@@ -4634,7 +4634,7 @@
                 "nom": "Boutet",
                 "prenom": "Ginette",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 46,
                 "tauxVote": 0.14,
                 "nbVoteAvance": 0
@@ -4701,7 +4701,7 @@
                 "nom": "Coderre",
                 "prenom": "Émile",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 745,
                 "tauxVote": 1.89,
                 "nbVoteAvance": 0
@@ -4721,7 +4721,7 @@
                 "nom": "Leblanc-Marcil",
                 "prenom": "Andrew",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 302,
                 "tauxVote": 0.77,
                 "nbVoteAvance": 0
@@ -4731,7 +4731,7 @@
                 "nom": "Audet",
                 "prenom": "Yves",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 280,
                 "tauxVote": 0.71,
                 "nbVoteAvance": 0
@@ -4798,7 +4798,7 @@
                 "nom": "St-Jean",
                 "prenom": "Étienne",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 528,
                 "tauxVote": 1.38,
                 "nbVoteAvance": 0
@@ -4808,7 +4808,7 @@
                 "nom": "Dupuis",
                 "prenom": "Sébastien",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 283,
                 "tauxVote": 0.74,
                 "nbVoteAvance": 0
@@ -4885,7 +4885,7 @@
                 "nom": "Sion",
                 "prenom": "Julie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 296,
                 "tauxVote": 0.96,
                 "nbVoteAvance": 0
@@ -4952,7 +4952,7 @@
                 "nom": "Fournier",
                 "prenom": "René",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 395,
                 "tauxVote": 1.22,
                 "nbVoteAvance": 0
@@ -4972,7 +4972,7 @@
                 "nom": "Ostigny",
                 "prenom": "Régis",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 181,
                 "tauxVote": 0.56,
                 "nbVoteAvance": 0
@@ -5049,7 +5049,7 @@
                 "nom": "Gouin Huot",
                 "prenom": "Maude",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 199,
                 "tauxVote": 0.69,
                 "nbVoteAvance": 0
@@ -5126,7 +5126,7 @@
                 "nom": "Le Seigle",
                 "prenom": "Yves",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 80,
                 "tauxVote": 0.32,
                 "nbVoteAvance": 0
@@ -5203,7 +5203,7 @@
                 "nom": "Riedo",
                 "prenom": "Sandra Mara",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 700,
                 "tauxVote": 1.73,
                 "nbVoteAvance": 0
@@ -5213,7 +5213,7 @@
                 "nom": "Bouchard",
                 "prenom": "Kevin",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 305,
                 "tauxVote": 0.75,
                 "nbVoteAvance": 0
@@ -5223,7 +5223,7 @@
                 "nom": "Dauphinais",
                 "prenom": "Yohann",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 266,
                 "tauxVote": 0.66,
                 "nbVoteAvance": 0
@@ -5233,7 +5233,7 @@
                 "nom": "Michaud",
                 "prenom": "Josée Mélanie",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 85,
                 "tauxVote": 0.21,
                 "nbVoteAvance": 0
@@ -5310,7 +5310,7 @@
                 "nom": "Dini",
                 "prenom": "Aziza",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 585,
                 "tauxVote": 1.78,
                 "nbVoteAvance": 0
@@ -5330,7 +5330,7 @@
                 "nom": "Sellah",
                 "prenom": "Djaouida",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 354,
                 "tauxVote": 1.08,
                 "nbVoteAvance": 0
@@ -5417,7 +5417,7 @@
                 "nom": "Huet-Côté",
                 "prenom": "Sabrina",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 980,
                 "tauxVote": 2.79,
                 "nbVoteAvance": 0
@@ -5427,7 +5427,7 @@
                 "nom": "Audet",
                 "prenom": "Marc André",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 480,
                 "tauxVote": 1.37,
                 "nbVoteAvance": 0
@@ -5504,7 +5504,7 @@
                 "nom": "Caron",
                 "prenom": "Alexandre",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 694,
                 "tauxVote": 2.06,
                 "nbVoteAvance": 0
@@ -5524,7 +5524,7 @@
                 "nom": "Tall",
                 "prenom": "Boukare",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 222,
                 "tauxVote": 0.66,
                 "nbVoteAvance": 0
@@ -5544,7 +5544,7 @@
                 "nom": "Chouinard",
                 "prenom": "Normand",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 41,
                 "tauxVote": 0.12,
                 "nbVoteAvance": 0
@@ -5611,7 +5611,7 @@
                 "nom": "Bellavance",
                 "prenom": "Eve",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 596,
                 "tauxVote": 1.86,
                 "nbVoteAvance": 0
@@ -5621,7 +5621,7 @@
                 "nom": "Tougas",
                 "prenom": "Sylvie",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 363,
                 "tauxVote": 1.14,
                 "nbVoteAvance": 0
@@ -5698,7 +5698,7 @@
                 "nom": "Petropoulos",
                 "prenom": "Apostolia",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 574,
                 "tauxVote": 1.91,
                 "nbVoteAvance": 0
@@ -5708,7 +5708,7 @@
                 "nom": "Vazquez",
                 "prenom": "Juan",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 530,
                 "tauxVote": 1.76,
                 "nbVoteAvance": 0
@@ -5738,7 +5738,7 @@
                 "nom": "Marcil",
                 "prenom": "Mathieu",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 137,
                 "tauxVote": 0.46,
                 "nbVoteAvance": 0
@@ -5748,7 +5748,7 @@
                 "nom": "St-Onge",
                 "prenom": "Hugô",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 73,
                 "tauxVote": 0.24,
                 "nbVoteAvance": 0
@@ -5758,7 +5758,7 @@
                 "nom": "Lessard",
                 "prenom": "Eric",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 60,
                 "tauxVote": 0.2,
                 "nbVoteAvance": 0
@@ -5768,7 +5768,7 @@
                 "nom": "Malek",
                 "prenom": "Arezki",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 35,
                 "tauxVote": 0.12,
                 "nbVoteAvance": 0
@@ -5835,7 +5835,7 @@
                 "nom": "Obeo",
                 "prenom": "Estelle",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 738,
                 "tauxVote": 2.19,
                 "nbVoteAvance": 0
@@ -5855,7 +5855,7 @@
                 "nom": "Bozsodi",
                 "prenom": "Bianca",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 271,
                 "tauxVote": 0.8,
                 "nbVoteAvance": 0
@@ -5865,7 +5865,7 @@
                 "nom": "Pharicien",
                 "prenom": "Jean Phariste",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 257,
                 "tauxVote": 0.76,
                 "nbVoteAvance": 0
@@ -5952,7 +5952,7 @@
                 "nom": "Gosselin",
                 "prenom": "Jacques",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 444,
                 "tauxVote": 1.24,
                 "nbVoteAvance": 0
@@ -6019,7 +6019,7 @@
                 "nom": "Geynet",
                 "prenom": "Boris",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 434,
                 "tauxVote": 1.61,
                 "nbVoteAvance": 0
@@ -6116,7 +6116,7 @@
                 "nom": "Bussière",
                 "prenom": "Maude",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 698,
                 "tauxVote": 2.06,
                 "nbVoteAvance": 0
@@ -6126,7 +6126,7 @@
                 "nom": "Chartier",
                 "prenom": "Lorraine",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 200,
                 "tauxVote": 0.59,
                 "nbVoteAvance": 0
@@ -6136,7 +6136,7 @@
                 "nom": "Fournier",
                 "prenom": "Nancy",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 174,
                 "tauxVote": 0.51,
                 "nbVoteAvance": 0
@@ -6146,7 +6146,7 @@
                 "nom": "L'heureux-Blouin",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 116,
                 "tauxVote": 0.34,
                 "nbVoteAvance": 0
@@ -6223,7 +6223,7 @@
                 "nom": "Dextraze",
                 "prenom": "Marie-Claude",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 655,
                 "tauxVote": 1.73,
                 "nbVoteAvance": 0
@@ -6233,7 +6233,7 @@
                 "nom": "Roy",
                 "prenom": "Yves",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 304,
                 "tauxVote": 0.8,
                 "nbVoteAvance": 0
@@ -6320,7 +6320,7 @@
                 "nom": "Vendette",
                 "prenom": "Daydree",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 550,
                 "tauxVote": 1.51,
                 "nbVoteAvance": 0
@@ -6330,7 +6330,7 @@
                 "nom": "Côté",
                 "prenom": "Caroline",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 276,
                 "tauxVote": 0.76,
                 "nbVoteAvance": 0
@@ -6350,7 +6350,7 @@
                 "nom": "Rouckout",
                 "prenom": "Jean-Luc",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 22,
                 "tauxVote": 0.06,
                 "nbVoteAvance": 0
@@ -6417,7 +6417,7 @@
                 "nom": "Louardiane",
                 "prenom": "Smail",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 675,
                 "tauxVote": 2.35,
                 "nbVoteAvance": 0
@@ -6427,7 +6427,7 @@
                 "nom": "Elsayed",
                 "prenom": "Nashaat",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 456,
                 "tauxVote": 1.58,
                 "nbVoteAvance": 0
@@ -6494,7 +6494,7 @@
                 "nom": "Poiré-Hill",
                 "prenom": "Laeticia",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 625,
                 "tauxVote": 2.15,
                 "nbVoteAvance": 0
@@ -6504,7 +6504,7 @@
                 "nom": "de Grandpré-Ruel",
                 "prenom": "Myriam",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 310,
                 "tauxVote": 1.07,
                 "nbVoteAvance": 0
@@ -6514,7 +6514,7 @@
                 "nom": "Cedent",
                 "prenom": "Shirley",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 98,
                 "tauxVote": 0.34,
                 "nbVoteAvance": 0
@@ -6524,7 +6524,7 @@
                 "nom": "Chénier",
                 "prenom": "Pierre",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 60,
                 "tauxVote": 0.21,
                 "nbVoteAvance": 0
@@ -6534,7 +6534,7 @@
                 "nom": "Portron",
                 "prenom": "Florent",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 45,
                 "tauxVote": 0.15,
                 "nbVoteAvance": 0
@@ -6601,7 +6601,7 @@
                 "nom": "Salt",
                 "prenom": "Kimberly",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1111,
                 "tauxVote": 4.04,
                 "nbVoteAvance": 0
@@ -6621,7 +6621,7 @@
                 "nom": "Symon",
                 "prenom": "John",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 596,
                 "tauxVote": 2.17,
                 "nbVoteAvance": 0
@@ -6631,7 +6631,7 @@
                 "nom": "Desjardins",
                 "prenom": "Patrick",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 150,
                 "tauxVote": 0.55,
                 "nbVoteAvance": 0
@@ -6708,7 +6708,7 @@
                 "nom": "St-Yves",
                 "prenom": "Amélie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 609,
                 "tauxVote": 1.96,
                 "nbVoteAvance": 0
@@ -6728,7 +6728,7 @@
                 "nom": "Bélanger",
                 "prenom": "Alain",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 206,
                 "tauxVote": 0.66,
                 "nbVoteAvance": 0
@@ -6805,7 +6805,7 @@
                 "nom": "Dubois",
                 "prenom": "Véronique",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 699,
                 "tauxVote": 2.11,
                 "nbVoteAvance": 0
@@ -6882,7 +6882,7 @@
                 "nom": "Coulombe",
                 "prenom": "Pierre-Luc",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 358,
                 "tauxVote": 1.2,
                 "nbVoteAvance": 0
@@ -6902,7 +6902,7 @@
                 "nom": "Rioux",
                 "prenom": "Jocelyn",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 118,
                 "tauxVote": 0.4,
                 "nbVoteAvance": 0
@@ -6969,7 +6969,7 @@
                 "nom": "Fournelle",
                 "prenom": "Gilles",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 602,
                 "tauxVote": 1.88,
                 "nbVoteAvance": 0
@@ -6979,7 +6979,7 @@
                 "nom": "Rémillard",
                 "prenom": "Jean",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 216,
                 "tauxVote": 0.67,
                 "nbVoteAvance": 0
@@ -6989,7 +6989,7 @@
                 "nom": "Dupuis",
                 "prenom": "Manon",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 214,
                 "tauxVote": 0.67,
                 "nbVoteAvance": 0
@@ -6999,7 +6999,7 @@
                 "nom": "Ali",
                 "prenom": "Morgan",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 90,
                 "tauxVote": 0.28,
                 "nbVoteAvance": 0
@@ -7009,7 +7009,7 @@
                 "nom": "St-Hilaire",
                 "prenom": "Daniel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 77,
                 "tauxVote": 0.24,
                 "nbVoteAvance": 0
@@ -7076,7 +7076,7 @@
                 "nom": "Dodier",
                 "prenom": "Sylvain",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 809,
                 "tauxVote": 3.05,
                 "nbVoteAvance": 0
@@ -7086,7 +7086,7 @@
                 "nom": "Veilleux",
                 "prenom": "Richard",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 281,
                 "tauxVote": 1.06,
                 "nbVoteAvance": 0
@@ -7153,7 +7153,7 @@
                 "nom": "Rochemont",
                 "prenom": "Stephanie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1102,
                 "tauxVote": 3.77,
                 "nbVoteAvance": 0
@@ -7163,7 +7163,7 @@
                 "nom": "Thompson",
                 "prenom": "Conrad",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 738,
                 "tauxVote": 2.53,
                 "nbVoteAvance": 0
@@ -7173,7 +7173,7 @@
                 "nom": "Marcil",
                 "prenom": "Malou",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 233,
                 "tauxVote": 0.8,
                 "nbVoteAvance": 0
@@ -7193,7 +7193,7 @@
                 "nom": "Lachapelle",
                 "prenom": "Serge",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 34,
                 "tauxVote": 0.12,
                 "nbVoteAvance": 0
@@ -7260,7 +7260,7 @@
                 "nom": "Joseph",
                 "prenom": "Alain",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 822,
                 "tauxVote": 2.83,
                 "nbVoteAvance": 0
@@ -7280,7 +7280,7 @@
                 "nom": "D'Aoust",
                 "prenom": "Jason",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 134,
                 "tauxVote": 0.46,
                 "nbVoteAvance": 0
@@ -7347,7 +7347,7 @@
                 "nom": "Paiement",
                 "prenom": "Émilie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 688,
                 "tauxVote": 1.74,
                 "nbVoteAvance": 0
@@ -7367,7 +7367,7 @@
                 "nom": "Laurin",
                 "prenom": "Vincent",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 231,
                 "tauxVote": 0.58,
                 "nbVoteAvance": 0
@@ -7377,7 +7377,7 @@
                 "nom": "Vaca",
                 "prenom": "Patricia",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 122,
                 "tauxVote": 0.31,
                 "nbVoteAvance": 0
@@ -7444,7 +7444,7 @@
                 "nom": "Roy",
                 "prenom": "Lise",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 836,
                 "tauxVote": 1.98,
                 "nbVoteAvance": 0
@@ -7454,7 +7454,7 @@
                 "nom": "Dury",
                 "prenom": "Jean",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 214,
                 "tauxVote": 0.51,
                 "nbVoteAvance": 0
@@ -7541,7 +7541,7 @@
                 "nom": "Lescarbeau",
                 "prenom": "Nicholas",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 558,
                 "tauxVote": 1.4,
                 "nbVoteAvance": 0
@@ -7551,7 +7551,7 @@
                 "nom": "Bédard",
                 "prenom": "Jean",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 69,
                 "tauxVote": 0.17,
                 "nbVoteAvance": 0
@@ -7618,7 +7618,7 @@
                 "nom": "Carbonneau",
                 "prenom": "Vincent J.",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1344,
                 "tauxVote": 4.31,
                 "nbVoteAvance": 0
@@ -7628,7 +7628,7 @@
                 "nom": "Clark",
                 "prenom": "Rebecca Anne",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 548,
                 "tauxVote": 1.76,
                 "nbVoteAvance": 0
@@ -7648,7 +7648,7 @@
                 "nom": "Fournier",
                 "prenom": "Normand",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 79,
                 "tauxVote": 0.25,
                 "nbVoteAvance": 0
@@ -7715,7 +7715,7 @@
                 "nom": "Cammarrota",
                 "prenom": "Giuseppe",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1040,
                 "tauxVote": 3.02,
                 "nbVoteAvance": 0
@@ -7735,7 +7735,7 @@
                 "nom": "Murphy",
                 "prenom": "Leslie Eric",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 537,
                 "tauxVote": 1.56,
                 "nbVoteAvance": 0
@@ -7812,7 +7812,7 @@
                 "nom": "Marcotte",
                 "prenom": "Vincent",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 403,
                 "tauxVote": 1.43,
                 "nbVoteAvance": 0
@@ -7822,7 +7822,7 @@
                 "nom": "Blackburn",
                 "prenom": "Blak D.",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 170,
                 "tauxVote": 0.6,
                 "nbVoteAvance": 0
@@ -7879,7 +7879,7 @@
                 "nom": "Walcott",
                 "prenom": "Chad",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1785,
                 "tauxVote": 6.67,
                 "nbVoteAvance": 0
@@ -7899,7 +7899,7 @@
                 "nom": "Gagnon",
                 "prenom": "David-Roger",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 708,
                 "tauxVote": 2.65,
                 "nbVoteAvance": 0
@@ -7929,7 +7929,7 @@
                 "nom": "Hoffman",
                 "prenom": "Rachel",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 82,
                 "tauxVote": 0.31,
                 "nbVoteAvance": 0
@@ -7996,7 +7996,7 @@
                 "nom": "Desmeules",
                 "prenom": "Stéphanie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 881,
                 "tauxVote": 2.91,
                 "nbVoteAvance": 0
@@ -8016,7 +8016,7 @@
                 "nom": "Poulin",
                 "prenom": "Tommy",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 211,
                 "tauxVote": 0.7,
                 "nbVoteAvance": 0
@@ -8083,7 +8083,7 @@
                 "nom": "Tardif",
                 "prenom": "Michel",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 547,
                 "tauxVote": 1.51,
                 "nbVoteAvance": 0
@@ -8103,7 +8103,7 @@
                 "nom": "Boyer",
                 "prenom": "Lynn",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 252,
                 "tauxVote": 0.7,
                 "nbVoteAvance": 0
@@ -8113,7 +8113,7 @@
                 "nom": "Yde",
                 "prenom": "Isabelle",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 227,
                 "tauxVote": 0.63,
                 "nbVoteAvance": 0
@@ -8190,7 +8190,7 @@
                 "nom": "Surette",
                 "prenom": "Pierre",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 218,
                 "tauxVote": 0.8,
                 "nbVoteAvance": 0
@@ -8200,7 +8200,7 @@
                 "nom": "Chandonnet",
                 "prenom": "Louis",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 89,
                 "tauxVote": 0.33,
                 "nbVoteAvance": 0
@@ -8210,7 +8210,7 @@
                 "nom": "Royer",
                 "prenom": "Geneviève",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 79,
                 "tauxVote": 0.29,
                 "nbVoteAvance": 0
@@ -8277,7 +8277,7 @@
                 "nom": "Fleury",
                 "prenom": "Roger",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 919,
                 "tauxVote": 3.33,
                 "nbVoteAvance": 0
@@ -8297,7 +8297,7 @@
                 "nom": "Gendron",
                 "prenom": "Samuel",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 795,
                 "tauxVote": 2.88,
                 "nbVoteAvance": 0
@@ -8307,7 +8307,7 @@
                 "nom": "Lang",
                 "prenom": "Louis",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 40,
                 "tauxVote": 0.14,
                 "nbVoteAvance": 0
@@ -8384,7 +8384,7 @@
                 "nom": "Guimont",
                 "prenom": "Constance",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 282,
                 "tauxVote": 0.96,
                 "nbVoteAvance": 0
@@ -8595,7 +8595,7 @@
                 "nom": "Hebib",
                 "prenom": "Chafika",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 441,
                 "tauxVote": 1.17,
                 "nbVoteAvance": 0
@@ -8605,7 +8605,7 @@
                 "nom": "Girard",
                 "prenom": "Julie",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 357,
                 "tauxVote": 0.94,
                 "nbVoteAvance": 0
@@ -8682,7 +8682,7 @@
                 "nom": "Svetoushkina",
                 "prenom": "Ksenia",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 402,
                 "tauxVote": 1.31,
                 "nbVoteAvance": 0
@@ -8759,7 +8759,7 @@
                 "nom": "La Madeleine",
                 "prenom": "Yves",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 680,
                 "tauxVote": 1.58,
                 "nbVoteAvance": 0
@@ -8779,7 +8779,7 @@
                 "nom": "Gendron",
                 "prenom": "Déitane",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 353,
                 "tauxVote": 0.82,
                 "nbVoteAvance": 0
@@ -8846,7 +8846,7 @@
                 "nom": "Plourde",
                 "prenom": "Alexie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 220,
                 "tauxVote": 0.69,
                 "nbVoteAvance": 0
@@ -8866,7 +8866,7 @@
                 "nom": "Levesque",
                 "prenom": "Dany",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 106,
                 "tauxVote": 0.33,
                 "nbVoteAvance": 0
@@ -9010,7 +9010,7 @@
                 "nom": "Richardson",
                 "prenom": "Catherine",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 781,
                 "tauxVote": 2.57,
                 "nbVoteAvance": 0
@@ -9020,7 +9020,7 @@
                 "nom": "Brown",
                 "prenom": "Luca",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 488,
                 "tauxVote": 1.61,
                 "nbVoteAvance": 0
@@ -9097,7 +9097,7 @@
                 "nom": "Boucher",
                 "prenom": "Julie",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 305,
                 "tauxVote": 1.1,
                 "nbVoteAvance": 0
@@ -9107,7 +9107,7 @@
                 "nom": "Lalancette",
                 "prenom": "Lynda",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 236,
                 "tauxVote": 0.85,
                 "nbVoteAvance": 0
@@ -9174,7 +9174,7 @@
                 "nom": "Dubois",
                 "prenom": "Karl",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 521,
                 "tauxVote": 1.42,
                 "nbVoteAvance": 0
@@ -9184,7 +9184,7 @@
                 "nom": "Ayala",
                 "prenom": "Paulina",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 314,
                 "tauxVote": 0.86,
                 "nbVoteAvance": 0
@@ -9194,7 +9194,7 @@
                 "nom": "Raymond-Poirier",
                 "prenom": "Catherine",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 225,
                 "tauxVote": 0.61,
                 "nbVoteAvance": 0
@@ -9214,7 +9214,7 @@
                 "nom": "Laperrière",
                 "prenom": "Coralie",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 130,
                 "tauxVote": 0.35,
                 "nbVoteAvance": 0
@@ -9224,7 +9224,7 @@
                 "nom": "Chénier",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 55,
                 "tauxVote": 0.15,
                 "nbVoteAvance": 0
@@ -9291,7 +9291,7 @@
                 "nom": "Lacasse",
                 "prenom": "Michel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 323,
                 "tauxVote": 1.19,
                 "nbVoteAvance": 0
@@ -9368,7 +9368,7 @@
                 "nom": "Wells",
                 "prenom": "Jessica",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 389,
                 "tauxVote": 1.34,
                 "nbVoteAvance": 0
@@ -9388,7 +9388,7 @@
                 "nom": "St-Georges",
                 "prenom": "Fernand",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 195,
                 "tauxVote": 0.67,
                 "nbVoteAvance": 0
@@ -9455,7 +9455,7 @@
                 "nom": "Morin",
                 "prenom": "Mathieu",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 691,
                 "tauxVote": 1.77,
                 "nbVoteAvance": 0
@@ -9465,7 +9465,7 @@
                 "nom": "Mc Elreavy",
                 "prenom": "Cyrille",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 514,
                 "tauxVote": 1.32,
                 "nbVoteAvance": 0
@@ -9532,7 +9532,7 @@
                 "nom": "Duford",
                 "prenom": "Jean-Pierre",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1009,
                 "tauxVote": 3.24,
                 "nbVoteAvance": 0
@@ -9542,7 +9542,7 @@
                 "nom": "Scott",
                 "prenom": "Steven",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 690,
                 "tauxVote": 2.22,
                 "nbVoteAvance": 0
@@ -9562,7 +9562,7 @@
                 "nom": "Gagnon-Paquin",
                 "prenom": "Félix",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 202,
                 "tauxVote": 0.65,
                 "nbVoteAvance": 0
@@ -9572,7 +9572,7 @@
                 "nom": "Young",
                 "prenom": "Christopher",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 103,
                 "tauxVote": 0.33,
                 "nbVoteAvance": 0
@@ -9582,7 +9582,7 @@
                 "nom": "Sullivan",
                 "prenom": "Linda",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 91,
                 "tauxVote": 0.29,
                 "nbVoteAvance": 0
@@ -9649,7 +9649,7 @@
                 "nom": "Chulak",
                 "prenom": "Luc",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 486,
                 "tauxVote": 1.19,
                 "nbVoteAvance": 0
@@ -9716,7 +9716,7 @@
                 "nom": "Langlois",
                 "prenom": "Véronique",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 694,
                 "tauxVote": 1.63,
                 "nbVoteAvance": 0
@@ -9736,7 +9736,7 @@
                 "nom": "St-Jacques",
                 "prenom": "Louis",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 240,
                 "tauxVote": 0.56,
                 "nbVoteAvance": 0
@@ -9746,7 +9746,7 @@
                 "nom": "Ruel",
                 "prenom": "Geneviève",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 159,
                 "tauxVote": 0.37,
                 "nbVoteAvance": 0
@@ -9813,7 +9813,7 @@
                 "nom": "Desrochers",
                 "prenom": "Annabelle",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 677,
                 "tauxVote": 1.72,
                 "nbVoteAvance": 0
@@ -9833,7 +9833,7 @@
                 "nom": "Brien",
                 "prenom": "Sylvie",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 294,
                 "tauxVote": 0.75,
                 "nbVoteAvance": 0
@@ -9843,7 +9843,7 @@
                 "nom": "Simon",
                 "prenom": "Christine",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 141,
                 "tauxVote": 0.36,
                 "nbVoteAvance": 0
@@ -9930,7 +9930,7 @@
                 "nom": "Bah",
                 "prenom": "Halimatou",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 849,
                 "tauxVote": 2.98,
                 "nbVoteAvance": 0
@@ -9940,7 +9940,7 @@
                 "nom": "Dago",
                 "prenom": "Jacques",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 432,
                 "tauxVote": 1.52,
                 "nbVoteAvance": 0
@@ -9950,7 +9950,7 @@
                 "nom": "Deschamps",
                 "prenom": "Fernand",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 75,
                 "tauxVote": 0.26,
                 "nbVoteAvance": 0
@@ -10017,7 +10017,7 @@
                 "nom": "Calderon",
                 "prenom": "Anna",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 881,
                 "tauxVote": 3.49,
                 "nbVoteAvance": 0
@@ -10037,7 +10037,7 @@
                 "nom": "Ladouceur",
                 "prenom": "Henri",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 73,
                 "tauxVote": 0.29,
                 "nbVoteAvance": 0
@@ -10047,7 +10047,7 @@
                 "nom": "Cossette-Trudel",
                 "prenom": "Alexis",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 72,
                 "tauxVote": 0.29,
                 "nbVoteAvance": 0
@@ -10114,7 +10114,7 @@
                 "nom": "Bergevin",
                 "prenom": "Caroline",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 923,
                 "tauxVote": 2.52,
                 "nbVoteAvance": 0
@@ -10134,7 +10134,7 @@
                 "nom": "Giguère",
                 "prenom": "Alain",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 250,
                 "tauxVote": 0.68,
                 "nbVoteAvance": 0
@@ -10144,7 +10144,7 @@
                 "nom": "Louis-Charles",
                 "prenom": "Valérie",
                 "numeroPartiPolitique": 36,
-                "abreviationPartiPolitique": "C.I.N.Q.",
+                "abreviationPartiPolitique": "CINQ",
                 "nbVoteTotal": 110,
                 "tauxVote": 0.3,
                 "nbVoteAvance": 0
@@ -10211,7 +10211,7 @@
                 "nom": "Geraci",
                 "prenom": "Antonino",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 456,
                 "tauxVote": 1.53,
                 "nbVoteAvance": 0
@@ -10231,7 +10231,7 @@
                 "nom": "Héroux",
                 "prenom": "Hélène",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 81,
                 "tauxVote": 0.27,
                 "nbVoteAvance": 0
@@ -10298,7 +10298,7 @@
                 "nom": "Côté-Rouleau",
                 "prenom": "Marie-Maud",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 423,
                 "tauxVote": 1.18,
                 "nbVoteAvance": 0
@@ -10308,7 +10308,7 @@
                 "nom": "Lebrasseur",
                 "prenom": "Éric",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 162,
                 "tauxVote": 0.45,
                 "nbVoteAvance": 0
@@ -10318,7 +10318,7 @@
                 "nom": "Louis-Jean",
                 "prenom": "Mona",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 141,
                 "tauxVote": 0.39,
                 "nbVoteAvance": 0
@@ -10328,7 +10328,7 @@
                 "nom": "Richard",
                 "prenom": "Sara",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 140,
                 "tauxVote": 0.39,
                 "nbVoteAvance": 0
@@ -10348,7 +10348,7 @@
                 "nom": "Roy",
                 "prenom": "Jossy",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 83,
                 "tauxVote": 0.23,
                 "nbVoteAvance": 0
@@ -10425,7 +10425,7 @@
                 "nom": "Jitaru",
                 "prenom": "Bianca",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 729,
                 "tauxVote": 1.87,
                 "nbVoteAvance": 0
@@ -10435,7 +10435,7 @@
                 "nom": "Madelein",
                 "prenom": "Etienne",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 424,
                 "tauxVote": 1.09,
                 "nbVoteAvance": 0
@@ -10455,7 +10455,7 @@
                 "nom": "Prud'homme",
                 "prenom": "Dominik",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 292,
                 "tauxVote": 0.75,
                 "nbVoteAvance": 0
@@ -10465,7 +10465,7 @@
                 "nom": "Berthiaume",
                 "prenom": "Jean-Patrick",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 205,
                 "tauxVote": 0.53,
                 "nbVoteAvance": 0
@@ -10475,7 +10475,7 @@
                 "nom": "Marquis",
                 "prenom": "Patrick",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 65,
                 "tauxVote": 0.17,
                 "nbVoteAvance": 0
@@ -10542,7 +10542,7 @@
                 "nom": "Cadieux Walker",
                 "prenom": "Mel-Lyna",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 766,
                 "tauxVote": 2.12,
                 "nbVoteAvance": 0
@@ -10552,7 +10552,7 @@
                 "nom": "Leduc",
                 "prenom": "Jonathan",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 349,
                 "tauxVote": 0.97,
                 "nbVoteAvance": 0
@@ -10629,7 +10629,7 @@
                 "nom": "Grégoire",
                 "prenom": "Élisabeth",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 534,
                 "tauxVote": 1.48,
                 "nbVoteAvance": 0
@@ -10639,7 +10639,7 @@
                 "nom": "Pouliot",
                 "prenom": "Nicolas",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 201,
                 "tauxVote": 0.56,
                 "nbVoteAvance": 0
@@ -10649,7 +10649,7 @@
                 "nom": "Duguay",
                 "prenom": "Roger",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 196,
                 "tauxVote": 0.54,
                 "nbVoteAvance": 0
@@ -10659,7 +10659,7 @@
                 "nom": "Lavoie",
                 "prenom": "Christian",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 152,
                 "tauxVote": 0.42,
                 "nbVoteAvance": 0
@@ -10669,7 +10669,7 @@
                 "nom": "Boivin",
                 "prenom": "Guy",
                 "numeroPartiPolitique": 29,
-                "abreviationPartiPolitique": "É.A.",
+                "abreviationPartiPolitique": "ÉA",
                 "nbVoteTotal": 73,
                 "tauxVote": 0.2,
                 "nbVoteAvance": 0
@@ -10736,7 +10736,7 @@
                 "nom": "Dubois",
                 "prenom": "Carole",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 522,
                 "tauxVote": 1.27,
                 "nbVoteAvance": 0
@@ -10756,7 +10756,7 @@
                 "nom": "Goyette",
                 "prenom": "Mathieu",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 244,
                 "tauxVote": 0.59,
                 "nbVoteAvance": 0
@@ -10823,7 +10823,7 @@
                 "nom": "Simidzija",
                 "prenom": "Adis",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 653,
                 "tauxVote": 1.75,
                 "nbVoteAvance": 0
@@ -10910,7 +10910,7 @@
                 "nom": "Roos",
                 "prenom": "Cristina",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 183,
                 "tauxVote": 2.14,
                 "nbVoteAvance": 0
@@ -10920,7 +10920,7 @@
                 "nom": "Couture",
                 "prenom": "Louis R.",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 145,
                 "tauxVote": 1.69,
                 "nbVoteAvance": 0
@@ -10987,7 +10987,7 @@
                 "nom": "Lecourtois",
                 "prenom": "Ian",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 453,
                 "tauxVote": 1.26,
                 "nbVoteAvance": 0
@@ -11007,7 +11007,7 @@
                 "nom": "Bluntss",
                 "prenom": "Hugo",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 278,
                 "tauxVote": 0.78,
                 "nbVoteAvance": 0
@@ -11017,7 +11017,7 @@
                 "nom": "Marginean",
                 "prenom": "Stéphane",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 200,
                 "tauxVote": 0.56,
                 "nbVoteAvance": 0
@@ -11094,7 +11094,7 @@
                 "nom": "Raymond",
                 "prenom": "Samuel",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 668,
                 "tauxVote": 1.65,
                 "nbVoteAvance": 0
@@ -11114,7 +11114,7 @@
                 "nom": "Poliquin",
                 "prenom": "Carl-André",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 245,
                 "tauxVote": 0.6,
                 "nbVoteAvance": 0
@@ -11124,7 +11124,7 @@
                 "nom": "Dallaire",
                 "prenom": "David",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 242,
                 "tauxVote": 0.6,
                 "nbVoteAvance": 0
@@ -11191,7 +11191,7 @@
                 "nom": "Mossa",
                 "prenom": "Jason",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1026,
                 "tauxVote": 2.7,
                 "nbVoteAvance": 0
@@ -11211,7 +11211,7 @@
                 "nom": "Young",
                 "prenom": "Ryan",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 568,
                 "tauxVote": 1.5,
                 "nbVoteAvance": 0
@@ -11221,7 +11221,7 @@
                 "nom": "Pilon",
                 "prenom": "Daniel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 343,
                 "tauxVote": 0.9,
                 "nbVoteAvance": 0
@@ -11231,7 +11231,7 @@
                 "nom": "Piché-Jetté",
                 "prenom": "Camille",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 206,
                 "tauxVote": 0.54,
                 "nbVoteAvance": 0
@@ -11298,7 +11298,7 @@
                 "nom": "Downey",
                 "prenom": "Pierre-Olivier",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 701,
                 "tauxVote": 1.54,
                 "nbVoteAvance": 0
@@ -11308,7 +11308,7 @@
                 "nom": "Hillel",
                 "prenom": "Vincent",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 403,
                 "tauxVote": 0.88,
                 "nbVoteAvance": 0
@@ -11385,7 +11385,7 @@
                 "nom": "Tyrrell",
                 "prenom": "Alex",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 1157,
                 "tauxVote": 3.72,
                 "nbVoteAvance": 0
@@ -11395,7 +11395,7 @@
                 "nom": "Fortin",
                 "prenom": "Raphaël",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 717,
                 "tauxVote": 2.3,
                 "nbVoteAvance": 0
@@ -11415,7 +11415,7 @@
                 "nom": "Milette",
                 "prenom": "Marc-André",
                 "numeroPartiPolitique": 23,
-                "abreviationPartiPolitique": "P.N.",
+                "abreviationPartiPolitique": "PN",
                 "nbVoteTotal": 151,
                 "tauxVote": 0.49,
                 "nbVoteAvance": 0
@@ -11425,7 +11425,7 @@
                 "nom": "Richard",
                 "prenom": "Hugo",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 76,
                 "tauxVote": 0.24,
                 "nbVoteAvance": 0
@@ -11435,7 +11435,7 @@
                 "nom": "Studd",
                 "prenom": "Eileen",
                 "numeroPartiPolitique": 7,
-                "abreviationPartiPolitique": "P.M.L.Q.",
+                "abreviationPartiPolitique": "PMLQ",
                 "nbVoteTotal": 29,
                 "tauxVote": 0.09,
                 "nbVoteAvance": 0
@@ -11502,7 +11502,7 @@
                 "nom": "Ahmed",
                 "prenom": "Mamoun",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 494,
                 "tauxVote": 2.28,
                 "nbVoteAvance": 0
@@ -11522,7 +11522,7 @@
                 "nom": "Pépino",
                 "prenom": "Hugo",
                 "numeroPartiPolitique": 2,
-                "abreviationPartiPolitique": "B.P.",
+                "abreviationPartiPolitique": "BP",
                 "nbVoteTotal": 162,
                 "tauxVote": 0.75,
                 "nbVoteAvance": 0
@@ -11599,7 +11599,7 @@
                 "nom": "Messier",
                 "prenom": "Mélanie",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 652,
                 "tauxVote": 2.08,
                 "nbVoteAvance": 0
@@ -11619,7 +11619,7 @@
                 "nom": "Kocini",
                 "prenom": "Andriana",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 230,
                 "tauxVote": 0.74,
                 "nbVoteAvance": 0
@@ -11629,7 +11629,7 @@
                 "nom": "Demers",
                 "prenom": "Rachel",
                 "numeroPartiPolitique": 31,
-                "abreviationPartiPolitique": "C.PQ",
+                "abreviationPartiPolitique": "CPQ",
                 "nbVoteTotal": 131,
                 "tauxVote": 0.42,
                 "nbVoteAvance": 0
@@ -11706,7 +11706,7 @@
                 "nom": "Kuhn",
                 "prenom": "Samuel Dajakran",
                 "numeroPartiPolitique": 10,
-                "abreviationPartiPolitique": "P.V.Q./G.PQ",
+                "abreviationPartiPolitique": "PVQ",
                 "nbVoteTotal": 730,
                 "tauxVote": 3.35,
                 "nbVoteAvance": 0
@@ -11716,7 +11716,7 @@
                 "nom": "Lawson",
                 "prenom": "Nicholas Peter",
                 "numeroPartiPolitique": 34,
-                "abreviationPartiPolitique": "N.P.D.Q.",
+                "abreviationPartiPolitique": "NPDQ",
                 "nbVoteTotal": 598,
                 "tauxVote": 2.74,
                 "nbVoteAvance": 0

@@ -2,9 +2,10 @@
 
     // imports libs
     import { onMount } from 'svelte';
-    import { loadLangFromURL } from './libs/url.js';
+    import { loadLangFromURL, getUrlParams } from './libs/url.js';
     import { getString } from './libs/locale';
     import { getRequestWrapper } from './libs/http.js';
+    import { signature_to_seats } from './pages/scripts.js';
 
     // import components
     import Loader from './components/Loader.svelte';
@@ -21,24 +22,35 @@
     // data
     let districts_geojson;
     let parties;
-    let results;
+    let last_election_results;
+    let conscriptions;
+    let seats_selection;
 
     // ui logic
     let ready = false;
     let init_successful = false;
 
-    async function load_data(){
-        districts_geojson = await getRequestWrapper('assets/data/electoral-districts.geojson', 'eng')
-        parties = await getRequestWrapper('assets/data/parties.json', 'eng')
-        results = await getRequestWrapper('assets/data/results_previous_election.json', 'eng')
+    // get url params
+    const url_params = getUrlParams();
 
-        return districts_geojson !== null && parties !== null && results !== null;
+    async function load_data(){
+        districts_geojson = await getRequestWrapper('assets/data/electoral-districts.geojson')
+        parties = await getRequestWrapper('assets/data/parties.json')
+        last_election_results = await getRequestWrapper('assets/data/results_previous_election.json');
+        conscriptions = await getRequestWrapper('assets/data/conscriptions.json');
+        return districts_geojson !== null && parties !== null && last_election_results !== null && conscriptions !== null;
     }
 
     onMount(async () => {
 
         // load data
         init_successful = await load_data();
+
+        // check url params
+        if (url_params['seats'] !== undefined && url_params['seats'] !== null) {
+            seats_selection = signature_to_seats(parties.map(d => d['key']), conscriptions['names'], url_params['seats']);
+            console.log(seats_selection)
+        }
 
         // set ready flag
         ready = true;
@@ -55,11 +67,13 @@
 {#if ready}
     {#if init_successful}
         <main>
-            <!-- <p class="title" style="text-align: center; margin-bottom: 32px;">{getString(lang, 'title')}</p>
-            <div class="description">
-                {@html getString(lang, 'description')}
-            </div> -->
-            <MapContainer bind:lang={lang} bind:title={title} parties={parties} districts_geojson={districts_geojson} results={results['circonscriptions']}/>
+            <MapContainer 
+                parties={parties} 
+                districts_geojson={districts_geojson} 
+                last_election_results={last_election_results['circonscriptions']}
+                conscriptions_names={conscriptions['names']}
+                seats_selection={seats_selection}
+            />
         </main>
     {/if}
 
