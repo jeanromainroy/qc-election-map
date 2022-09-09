@@ -263,7 +263,6 @@
                 const name = d3.select(this).data()[0]['properties']['name'];
 
                 // check
-                console.log(seats_selection)
                 if (seats_selection[name] === undefined || seats_selection[name] === null) {
                     return;
                 }
