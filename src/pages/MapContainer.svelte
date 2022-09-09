@@ -88,7 +88,6 @@
         setResults();
         update_count();
         // update_title();
-        update_table();
     }
 
     function reset_map(){
@@ -177,17 +176,6 @@
         })
     }
 
-    function update_table(){
-
-        // create headers
-        const headers = Object.keys(seats)
-
-        // create values
-        const values = [Object.keys(seats).map(d => seats[d]['total'])]
-
-        // set
-        seats_tabular = [headers, ...values];
-    }
 
     function drawMask(){
 
@@ -307,9 +295,6 @@
                 // update the count of each party
                 update_count();
 
-                // update table
-                update_table();
-
                 // update title
                 // update_title();
             })
@@ -363,8 +348,34 @@
 
 <!-- The seats count -->
 <div id="seatscontainer">
-    <Table data={seats_tabular}/>
-    <!-- <Button onclick={() => { reset(); }} string_key='reset' bind:lang={lang}/> -->
+    <div class="party-container"></div>
+
+    <div class="party-container">
+        <img alt="logo caq"  src="assets/logo/caq.png"/>
+        <p id="caq-seatcount" style="color: #06B5FF">{seats['CAQ'] === undefined ? 0 : seats['CAQ']['total']}</p>
+    </div>
+
+    <div class="party-container">
+        <img alt="logo plq"  src="assets/logo/plq.png"/>
+        <p id="plq-seatcount" style="color: #F7070F">{seats['PLQ'] === undefined ? 0 : seats['PLQ']['total']}</p>
+    </div>
+
+    <div class="party-container">
+        <img alt="logo pcq"  src="assets/logo/pcq.png"/>
+        <p id="pcq-seatcount" style="color: #0A0095">{seats['PCQ'] === undefined ? 0 : seats['PCQ']['total']}</p>
+    </div>
+
+    <div class="party-container">
+        <img alt="logo qs"  src="assets/logo/qs.png"/>
+        <p id="qs-seatcount" style="color: #FFA406">{seats['QS'] === undefined ? 0 : seats['QS']['total']}</p>
+    </div>
+
+    <div class="party-container">
+        <img alt="logo pq" src="assets/logo/pq.png"/>
+        <p id="pq-seatcount" style="color: #75B6FF">{seats['PQ'] === undefined ? 0 : seats['PQ']['total']}</p>
+    </div>
+
+    <div class="party-container"></div>
 </div>
 
 <style>
@@ -387,6 +398,22 @@
         background-color: white;
         padding: 16px;
         border-top: 0.5px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .party-container {
+        max-height: 64px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img { 
+        object-fit: contain;
+        width: 100%;
+        height: 32px;
     }
 
 </style>

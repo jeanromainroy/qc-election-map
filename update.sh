@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # --- Update Build Files ---
-scp public/build/bundle.* portfolio:/home/ubuntu/qc-election-map/build/
+scp -r public/* portfolio:/home/ubuntu/qc-election-map/
