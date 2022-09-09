@@ -296,6 +296,7 @@
 
     function _export_selection(){
         const signature = export_selection(parties.map(d => d['key']), conscriptions_names, get_districs_data_from_map());
+        if (signature === undefined || signature === null) return;
         window.open(`${window.location.href.split('?')[0]}?seats=${signature}`, '_blank').focus();
     }
 

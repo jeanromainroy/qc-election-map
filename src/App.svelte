@@ -49,7 +49,6 @@
         // check url params
         if (url_params['seats'] !== undefined && url_params['seats'] !== null) {
             seats_selection = signature_to_seats(parties.map(d => d['key']), conscriptions['names'], url_params['seats']);
-            console.log(seats_selection)
         } else {
             seats_selection = {};
             conscriptions['names'].forEach(name => { seats_selection[name] = ''});

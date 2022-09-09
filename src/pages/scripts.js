@@ -42,8 +42,16 @@ function dec2bin(dec) {
 
 export function export_selection(keys_parties, keys_conscription, seats_selection){
 
-    // format seats
-    const seats_formatted = seats_selection.map(d => {
+    // init
+    let seats_formatted = [];
+
+    // populate
+    keys_conscription.forEach((d, i) => {
+        seats_formatted.push([i, 0]);
+    })
+
+    // set known seats
+    seats_selection.forEach(d => {
         
         // destructure
         const { party, uid } = d;
@@ -52,21 +60,19 @@ export function export_selection(keys_parties, keys_conscription, seats_selectio
         const index_party = keys_parties.indexOf(party);
         const index_conscription = keys_conscription.indexOf(uid);
 
-        // return tuple
-        return [index_conscription, index_party];
-    }).filter(d => {
+        // check
+        if (index_party < 0 || index_conscription < 0) return;
 
-        // ensure
-        return d[0] >= 0 && d[1] >= 0
-
-    }).sort((a, b) => {
+        // set tuple
+        seats_formatted[index_conscription][1] = index_party
+    });
+    
+    // sort
+    seats_formatted.sort((a, b) => {
 
         // sort by first
         return a[0] - b[0]
     });
-
-    // verify
-    if (seats_formatted.length !== keys_conscription.length) return;
 
     // convert to binary string
     let binary_string = seats_formatted.map(d => { 
@@ -97,6 +103,7 @@ export function export_selection(keys_parties, keys_conscription, seats_selectio
         return d.length === 1 ? `0${d}` : d;
     }).join('');
 
+    
     return signature;    
 }
 
@@ -109,6 +116,9 @@ export function signature_to_seats(keys_parties, keys_conscription, signature) {
         const byte = signature.substring(i, i+2);
         hex_train.push(byte);
     }
+
+    // verify
+    if (hex_train.length !== 47) return;
 
     let binary_string = hex_train.map(d => {
         return parseInt(d, 16).toString(2)
