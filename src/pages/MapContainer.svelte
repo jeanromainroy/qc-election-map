@@ -15,8 +15,6 @@
 
     // import svelte components
     import Map from '../dataviz/Map/Map.svelte';
-    import Table from '../components/Table.svelte';
-    import Button from '../components/Button.svelte';
 
     // import ui libs
     import { onMount } from 'svelte';
