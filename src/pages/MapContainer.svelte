@@ -134,6 +134,12 @@
     }
 
 
+    function sum_seats(_seats){
+        if (_seats === undefined || _seats === null || _seats['CAQ'] === undefined) return 0;
+        return Object.keys(_seats).map(k => seats[k]['total']).reduce((psum, a) => psum + a, 0);
+    }
+
+
     function drawMask(){
 
         L.Mask = L.Polygon.extend({
@@ -319,31 +325,38 @@
 
     <div class="party-container">
         <img alt="logo caq"  src="assets/logo/caq.png"/>
-        <p id="caq-seatcount" style="color: #06B5FF">{seats['CAQ'] === undefined ? 0 : seats['CAQ']['total']}</p>
+        <p class="seatcount" id="caq-seatcount" style="color: #06B5FF">{seats['CAQ'] === undefined ? 0 : seats['CAQ']['total']}</p>
     </div>
 
     <div class="party-container">
         <img alt="logo plq"  src="assets/logo/plq.png"/>
-        <p id="plq-seatcount" style="color: #F7070F">{seats['PLQ'] === undefined ? 0 : seats['PLQ']['total']}</p>
+        <p class="seatcount" id="plq-seatcount" style="color: #F7070F">{seats['PLQ'] === undefined ? 0 : seats['PLQ']['total']}</p>
     </div>
 
     <div class="party-container">
         <img alt="logo pcq"  src="assets/logo/pcq.png"/>
-        <p id="pcq-seatcount" style="color: #0A0095">{seats['PCQ'] === undefined ? 0 : seats['PCQ']['total']}</p>
+        <p class="seatcount" id="pcq-seatcount" style="color: #0A0095">{seats['PCQ'] === undefined ? 0 : seats['PCQ']['total']}</p>
     </div>
 
     <div class="party-container">
         <img alt="logo qs"  src="assets/logo/qs.png"/>
-        <p id="qs-seatcount" style="color: #FFA406">{seats['QS'] === undefined ? 0 : seats['QS']['total']}</p>
+        <p class="seatcount" id="qs-seatcount" style="color: #FFA406">{seats['QS'] === undefined ? 0 : seats['QS']['total']}</p>
     </div>
 
     <div class="party-container">
         <img alt="logo pq" src="assets/logo/pq.png"/>
-        <p id="pq-seatcount" style="color: #75B6FF">{seats['PQ'] === undefined ? 0 : seats['PQ']['total']}</p>
+        <p class="seatcount" id="pq-seatcount" style="color: #75B6FF">{seats['PQ'] === undefined ? 0 : seats['PQ']['total']}</p>
     </div>
 
     <div class="party-container"></div>
+
+    <div class="seats-counter">
+        <p>{sum_seats(seats)}/125</p>
+    </div>    
 </div>
+
+
+
 
 <style>
 
@@ -406,6 +419,26 @@
         object-fit: contain;
         width: 100%;
         height: 32px;
+    }
+
+    .seatcount {
+        font-weight: 700;
+    }
+
+    .seats-counter {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 16px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .seats-counter p {
+        margin: 0px;
+        padding: 0px;
     }
 
 </style>

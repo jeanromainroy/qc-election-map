@@ -47,7 +47,7 @@ export function export_selection(keys_parties, keys_conscription, seats_selectio
 
     // populate
     keys_conscription.forEach((d, i) => {
-        seats_formatted.push([i, 0]);
+        seats_formatted.push([i, 7]);
     })
 
     // set known seats
@@ -160,7 +160,7 @@ export function signature_to_seats(keys_parties, keys_conscription, signature) {
     let seats = {};
     seats_formatted.forEach((d, i) => {
         const conscription = keys_conscription[i];
-        const party = keys_parties[d];
+        const party = d >= keys_parties.length ? undefined : keys_parties[d];
         seats[conscription] = party;
     })
 
