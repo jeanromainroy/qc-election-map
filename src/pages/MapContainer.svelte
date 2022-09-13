@@ -332,13 +332,36 @@
 <!-- URL containing the seats -->
 <input type="text" value={seats_url} id="seats-url">
 
-<!-- Share Button -->
-<button id="share-button" class="m-button" on:click={copy_to_clipboard}>Share</button>
-
 
 <!-- The Map -->
 <div id="mapcontainer">
     <Map bind:projection={projection} bind:map={map} bind:paths={paths} bind:svg={svg} bind:g={g} bind:tooltip={tooltip}/>
+</div>
+
+
+<div id="topline-container">
+    <div class="info-container"></div>
+
+    <!-- Reset Button -->
+    <div class="info-container">
+        <button class="m-button" on:click={reset}>Reset</button>
+    </div>
+
+    <div class="info-container"></div>
+    
+    <div class="text-container">
+        <p>{sum_seats(seats) >= 63 ? 'Majoritaire' : 'Minoritaire'}</p>
+        <p>{sum_seats(seats)}/125</p>
+    </div>   
+    
+    <div class="info-container"></div>
+
+    <!-- Share Button -->
+    <div class="info-container">
+        <button class="m-button" on:click={copy_to_clipboard}>Share</button>    
+    </div> 
+
+    <div class="info-container"></div>
 </div>
 
 
@@ -372,16 +395,6 @@
     </div>
 
     <div class="party-container"></div>
-
-    <div class="seats-counter">
-        <p>{sum_seats(seats)}/125</p>
-    </div>    
-
-
-    <!-- Reset Button -->
-    <div class="button-container">
-        <button id="reset-button" class="m-button" on:click={reset}>Reset</button>
-    </div>
 </div>
 
 
@@ -395,7 +408,6 @@
         right: 0px;
         visibility: hidden;
     }
-
 
     .m-button {
         z-index: 999;
@@ -421,16 +433,9 @@
         filter: brightness(1.1);
     }
 
-    /* Dev */
-    #share-button {
-        position: absolute;
-        top: 32px;
-        right: 32px;
-    }
-
     #mapcontainer{
         position: absolute;
-        top: 0px;
+        top: 64px;
         left: 0px;
         right: 0px;
         bottom: calc(32px + var(--font-size-normal));
@@ -450,12 +455,47 @@
         flex-direction: row;
         justify-content: space-between;
         overflow: hidden;
+        align-items: center;
+    }
+
+    #topline-container {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin: 0px auto;
+        min-height: 64px;
+        background-color: white;
+        padding: 0px;
+        border-bottom: 0.5px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+        align-items: center;
     }
 
     .party-container {
         max-height: 64px;
         display: flex;
         flex-direction: column;
+    }
+
+    .info-container {
+        max-height: 48px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text-container {
+        max-height: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container p {
+        margin: 0px;
+        padding: 0px;
     }
 
     img { 
@@ -466,35 +506,6 @@
 
     .seatcount {
         font-weight: 700;
-    }
-
-
-    .button-container {
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        left: 16px;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        align-items: center;
-    }
-
-
-    .seats-counter {
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        right: 16px;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        align-items: center;
-    }
-
-    .seats-counter p {
-        margin: 0px;
-        padding: 0px;
     }
 
 </style>
