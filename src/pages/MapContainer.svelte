@@ -158,7 +158,7 @@
         });
 
         if (+parties_ranked[0][1] === +parties_ranked[1][1]) {
-            return `${parties_ranked[0][0]}-${parties_ranked[1][0]} Égalité`
+            return `Égalité`
         } else if (parties_ranked[0][1] >= 63) {
             return `${parties_ranked[0][0]} Majoritaire`
         } else {
