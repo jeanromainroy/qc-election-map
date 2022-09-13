@@ -144,6 +144,25 @@
     }
 
 
+    function is_majority(_seats) {
+
+        // if =0
+        const sum = sum_seats(_seats);
+        if (sum === 0) return ' ';
+
+        const majority_government = Object.keys(_seats).filter(party_key => {
+            return _seats[party_key]['total'] >= 63;
+        }).length > 0;
+
+        if (majority_government) {
+            return 'Majoritaire'
+        } else {
+            return 'Minoritaire'
+        }
+    }
+    
+
+
     function drawMask(){
 
         L.Mask = L.Polygon.extend({
@@ -350,7 +369,7 @@
     <div class="info-container"></div>
     
     <div class="text-container">
-        <p>{sum_seats(seats) >= 63 ? 'Majoritaire' : 'Minoritaire'}</p>
+        <p>{is_majority(seats)}</p>
         <p>{sum_seats(seats)}/125</p>
     </div>   
     
