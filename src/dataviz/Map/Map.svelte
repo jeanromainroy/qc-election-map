@@ -81,17 +81,18 @@
         fill-opacity: 0.0;
         fill: rgba(51, 51, 51);
         stroke: rgba(51, 51, 51, 0.3);
-        stroke-width: 1px;
+        stroke-width: 0.5px;
+    }
+
+    :global(path:not(#mask-path):hover) {
+        stroke-width: 2px;
+        stroke: rgba(51, 51, 51, 0.7);
     }
 
     :global(path.highlight){
         fill: var(--main-color);
         stroke:var(--main-color);
         stroke-width: 3px;
-    }
-
-    :global(path:hover) {
-        fill-opacity: 0.15;
     }
 
     :global(path.clicked){

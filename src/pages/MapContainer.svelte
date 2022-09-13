@@ -63,7 +63,7 @@
         }).slice(0, 3).join('')
 
         // return html
-        return `<p style='font-size: 14px;'>${name.trim()}</p><p style='font-size: 11px; text-decoration: underline; margin-top: 8px;'>Last Election</p>${candidates_str}`
+        return `<p style='font-size: 14px;'>${name.trim()}</p><p style='font-size: 11px; text-decoration: underline; margin-top: 8px;'>Dernière élection</p>${candidates_str}`
     }
 
     function reset(){
@@ -139,12 +139,10 @@
         seats_url = generate_seats_url();
     }
 
-
     function sum_seats(_seats){
         if (_seats === undefined || _seats === null || _seats['CAQ'] === undefined) return 0;
         return Object.keys(_seats).map(k => seats[k]['total']).reduce((psum, a) => psum + a, 0);
     }
-
 
     function is_majority(_seats) {
 
@@ -162,8 +160,6 @@
             return 'Minoritaire'
         }
     }
-    
-
 
     function drawMask(){
 
@@ -213,6 +209,7 @@
         layer[0].style.fillOpacity = 1.0
         layer[0].style.fill = "#fff"
         layer[0].style.cursor = "default"
+        layer[0].id = 'mask-path'
     }
 
     function drawPaths(){
@@ -368,7 +365,7 @@
 
     <!-- Reset Button -->
     <div class="info-container">
-        <button class="m-button" on:click={reset}>Reset</button>
+        <button class="m-button" on:click={reset}>Réinitialiser</button>
     </div>
 
     <div class="info-container"></div>
@@ -382,7 +379,7 @@
 
     <!-- Share Button -->
     <div class="info-container">
-        <button class="m-button" on:click={copy_to_clipboard}>Share</button>    
+        <button class="m-button" on:click={copy_to_clipboard}>Partager</button>    
     </div> 
 
     <div class="info-container"></div>
