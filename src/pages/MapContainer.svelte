@@ -391,7 +391,6 @@
 
 <!-- The seats count -->
 <div id="seatscontainer">
-    <div class="party-container"></div>
 
     <div class="party-container">
         <img alt="logo caq"  src="assets/logo/caq.png"/>
@@ -418,7 +417,6 @@
         <p class="seatcount" id="pq-seatcount" style="color: #75B6FF">{seats['PQ'] === undefined ? 0 : seats['PQ']['total']}</p>
     </div>
 
-    <div class="party-container"></div>
 </div>
 
 
@@ -501,6 +499,7 @@
 
     .party-container {
         max-height: 64px;
+        width: 20vw;
         display: flex;
         flex-direction: column;
     }
