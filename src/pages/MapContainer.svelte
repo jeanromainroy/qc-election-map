@@ -27,6 +27,7 @@
     let g, map, svg, tooltip, projection;
     let paths;
     let wasDragged = false;
+    let seats_url = '';
 
     // create a color scale using the parties
     const color = d3.scaleOrdinal(parties.map(p => p['color'])).domain(parties.map(p => p['key']));
@@ -131,6 +132,9 @@
             if (party === null) return;
             seats[district['party']]['total'] += 1
         })
+
+        // set url
+        seats_url = generate_seats_url();
     }
 
 
@@ -297,20 +301,39 @@
 
         // reset
         reset();
-    });    
+    }); 
+    
+    
+    async function copy_to_clipboard() {
+        // Get the text field
+        var copyText = document.getElementById("seats-url");
 
+        // Select the text field
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
 
-    function _export_selection(){
+        // Copy the text inside the text field
+        await navigator.clipboard.writeText(copyText.value);
+
+        // Alert the copied text
+        alert("Url copied to clipboard");
+    }
+
+    
+    function generate_seats_url(){
         const signature = export_selection(parties.map(d => d['key']), conscriptions_names, get_districs_data_from_map());
-        if (signature === undefined || signature === null) return;
-        window.open(`${window.location.href.split('?')[0]}?seats=${signature}`, '_blank').focus();
+        if (signature === undefined || signature === null) return '';
+        return `${window.location.href.split('?')[0]}?seats=${signature}`;
     }
 
 </script>
 
 
+<!-- URL containing the seats -->
+<input type="text" value={seats_url} id="seats-url">
+
 <!-- Share Button -->
-<button id="share-button" on:click={_export_selection}>Share</button>
+<button id="share-button" class="m-button" on:click={copy_to_clipboard}>Share</button>
 
 
 <!-- The Map -->
@@ -353,6 +376,12 @@
     <div class="seats-counter">
         <p>{sum_seats(seats)}/125</p>
     </div>    
+
+
+    <!-- Reset Button -->
+    <div class="button-container">
+        <button id="reset-button" class="m-button" on:click={reset}>Reset</button>
+    </div>
 </div>
 
 
@@ -360,30 +389,44 @@
 
 <style>
 
+    #seats-url {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        visibility: hidden;
+    }
+
+
+    .m-button {
+        z-index: 999;
+        background-color: #ccc;
+        color: #fff;
+        outline: none;
+        user-select: none;
+        border: none;
+        border-radius: 6px;
+        font-size: var(--font-size-small);
+        cursor: pointer;
+        margin: 0px;
+        background-color: #aaa; /* Green */
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .m-button:hover {
+        filter: brightness(1.1);
+    }
 
     /* Dev */
     #share-button {
         position: absolute;
         top: 32px;
         right: 32px;
-        z-index: 999;
-        background-color: var(--main-color);
-        color: #fff;
-        outline: none;
-        user-select: none;
-        border: none;
-        border-radius: 6px;
-        padding: 16px;
-        font-size: var(--font-size-normal);
-        font-family: var(--font-noto);
-        box-shadow: var(--box-shadow-dark);
-        cursor: pointer;
     }
-
-    #share-button:hover {
-        filter: brightness(1.2);
-    }
-
 
     #mapcontainer{
         position: absolute;
@@ -424,6 +467,19 @@
     .seatcount {
         font-weight: 700;
     }
+
+
+    .button-container {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 16px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+
 
     .seats-counter {
         position: absolute;
