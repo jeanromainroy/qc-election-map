@@ -22,6 +22,7 @@
 
     // constants
     const opacity_clicked = 0.7;
+    const ALLOWABLE_PARTIES = ["CAQ", "PLQ", "PCQ", "QS", "PQ"];
 
     // variables
     let g, map, svg, tooltip, projection;
@@ -130,6 +131,7 @@
             const district = districts[uid]
             const party = district['party'] === undefined || district['party'] === null ? null : district['party']
             if (party === null) return;
+            if (!ALLOWABLE_PARTIES.includes(party)) return;
             seats[district['party']]['total'] += 1
         })
 
@@ -299,7 +301,7 @@
                 const party = seats_selection[name];
 
                 // check
-                if (party === undefined || party === null || party.length === 0) {
+                if (party === undefined || party === null || party.length === 0 || !ALLOWABLE_PARTIES.includes(party)) {
                     return;
                 }
 
@@ -320,6 +322,9 @@
 
         // reset
         reset();
+
+        // reset
+        seats_selection = {};
     }); 
     
     
