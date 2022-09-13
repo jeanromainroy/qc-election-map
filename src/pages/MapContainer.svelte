@@ -150,14 +150,17 @@
         const sum = sum_seats(_seats);
         if (sum === 0) return ' ';
 
-        const majority_government = Object.keys(_seats).filter(party_key => {
-            return _seats[party_key]['total'] >= 63;
-        }).length > 0;
+        // map
+        const parties_ranked = Object.keys(_seats).map(party => {
+            return [party, +_seats[party]['total']]
+        }).sort((a, b) => {
+            return b[1] - a[1];
+        })
 
-        if (majority_government) {
-            return 'Majoritaire'
+        if (parties_ranked[0][1] >= 63) {
+            return `${parties_ranked[0][0]} Majoritaire`
         } else {
-            return 'Minoritaire'
+            return `${parties_ranked[0][0]} Minoritaire`
         }
     }
 
