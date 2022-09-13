@@ -155,9 +155,11 @@
             return [party, +_seats[party]['total']]
         }).sort((a, b) => {
             return b[1] - a[1];
-        })
+        });
 
-        if (parties_ranked[0][1] >= 63) {
+        if (+parties_ranked[0][1] === +parties_ranked[1][1]) {
+            return `${parties_ranked[0][0]}-${parties_ranked[1][0]} Égalité`
+        } else if (parties_ranked[0][1] >= 63) {
             return `${parties_ranked[0][0]} Majoritaire`
         } else {
             return `${parties_ranked[0][0]} Minoritaire`
