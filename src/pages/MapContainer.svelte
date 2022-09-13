@@ -342,7 +342,7 @@
         await navigator.clipboard.writeText(copyText.value);
 
         // Alert the copied text
-        alert("Url copied to clipboard");
+        alert("Lien sauvegardé et prêt à partager");
     }
 
     
