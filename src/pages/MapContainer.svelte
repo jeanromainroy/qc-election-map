@@ -366,28 +366,22 @@
 
 
 <div id="topline-container">
-    <div class="info-container"></div>
 
     <!-- Reset Button -->
     <div class="info-container">
         <button class="m-button" on:click={reset}>Réinitialiser</button>
     </div>
-
-    <div class="info-container"></div>
     
     <div class="text-container">
         <p>{is_majority(seats)}</p>
         <p>{sum_seats(seats)}/125</p>
     </div>   
-    
-    <div class="info-container"></div>
 
     <!-- Share Button -->
     <div class="info-container">
         <button class="m-button" on:click={copy_to_clipboard}>Partager</button>    
     </div> 
 
-    <div class="info-container"></div>
 </div>
 
 
@@ -509,12 +503,15 @@
     .info-container {
         max-height: 48px;
         display: flex;
+        width: 33vw;
         align-items: center;
+        justify-content: center;
     }
 
     .text-container {
         max-height: 48px;
         display: flex;
+        width: 33vw;
         flex-direction: column;
     }
 
