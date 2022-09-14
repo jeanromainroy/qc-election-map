@@ -2,7 +2,7 @@
 
 Quebec is composed of 125 electoral districts. This web tool allows users to make projections.
 
-Live demo [here](https://170towin.ca)
+Live demo [here](https://projection125.com)
 
 
 ## Stack
