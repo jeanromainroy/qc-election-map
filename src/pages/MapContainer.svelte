@@ -258,7 +258,8 @@
 
                 // get data
                 const uid = d3.select(this).attr('data-uid')
-                const partyIndex = d3.select(this).attr('data-party-index');
+                const _partyIndex = d3.select(this).attr('data-party-index');
+                const partyIndex = _partyIndex >= 0 ? _partyIndex : 0;
 
                 // increment index
                 const new_partyIndex = (+partyIndex + 1) % parties.length;
