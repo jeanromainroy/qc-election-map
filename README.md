@@ -11,6 +11,13 @@ Live demo [here](https://projection125.com)
 - Backend : Node.js, Express.js
 
 
+## Preloaded projects
+
+- 2018 Election Results
+
+    http://localhost:8080/?seats=1291249249a51249249449449aa984c44a891b494512a22492aa26a88a24a289289a49a5286144950984c24928a495
+
+
 ## Dev
 
 ### Frontend Environment

@@ -328,8 +328,7 @@
 
         // reset
         seats_selection = {};
-    }); 
-    
+    });     
     
     async function copy_to_clipboard() {
         // Get the text field
@@ -339,11 +338,20 @@
         copyText.select();
         copyText.setSelectionRange(0, 99999); // For mobile devices
 
+        // grab value
+        const link = copyText.value;
+
         // Copy the text inside the text field
-        await navigator.clipboard.writeText(copyText.value);
+        await navigator.clipboard.writeText(link);
 
         // Alert the copied text
-        alert("Lien sauvegardé et prêt à partager");
+        alert(`
+Lien copié. 
+
+Vous pouvez maintenant partager votre projection
+
+${link}
+        `);
     }
 
     
