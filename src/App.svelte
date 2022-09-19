@@ -13,6 +13,10 @@
     // import pages
     import MapContainer from './pages/MapContainer.svelte';
 
+    // config
+    const SIGNATURE_2018 = '1291249249a51249249449449aa984c44a891b494512a22492aa26a88a24a289289a49a5286144950984c24928a495';
+    const SIGNATURE_2022 = '12893f9249e5124927944944924984c24a251249e5126124928f26f84a24a28928924925184fe49509e4c24924fe50';
+
     // title
     let title = '';
 

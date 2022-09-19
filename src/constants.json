@@ -1,8 +1,8 @@
 {
-    "APP_NAME": "170toWin",
+    "APP_NAME": "Projection125",
     "SUPPORTED_LANGUAGES": [
         {"key": "eng", "name": "English"},
         {"key": "fra", "name": "Français"}
     ],
-    "REFERRAL": "https://jeanromainroy.com"
+    "REFERRAL": "https://projection125.com"
 }
