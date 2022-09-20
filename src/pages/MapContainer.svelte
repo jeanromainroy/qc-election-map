@@ -382,7 +382,7 @@ ${link}
 <div id="projections">
     <div id="projections-list">
         <p><a href="?seats={SIGNATURE_2018}">Election 2018</a></p>
-        <p><a href="?seats={SIGNATURE_2022}">Projection 2022</a></p>
+        <p><a href="?seats={SIGNATURE_2022}">Projection qc125</a></p>
     </div>
 </div>
 
