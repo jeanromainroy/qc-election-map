@@ -341,10 +341,10 @@
         // message
         if (signature === SIGNATURE_2018) {
             const msg = 'La carte montre le résultat de la dernière élection provinciale du 1er octobre 2018';
-            alert(msg)
+            setTimeout(() => { alert(msg) }, 500)
         } else if (signature === SIGNATURE_2022) {
             const msg = 'La carte montre la projection de qc125 en date du 18 septembre 2022. Les circonscriptions vides sont les comtés pivots';
-            alert(msg)
+            setTimeout(() => { alert(msg) }, 500)
         }
     });     
     
