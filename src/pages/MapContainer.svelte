@@ -24,6 +24,10 @@
     const opacity_clicked = 0.7;
     const ALLOWABLE_PARTIES = ["CAQ", "PLQ", "PCQ", "QS", "PQ"];
 
+    // config
+    const SIGNATURE_2018 = '1291249249a51249249449449aa984c44a891b494512a22492aa26a88a24a289289a49a5286144950984c24928a495';
+    const SIGNATURE_2022 = '12893f9249e5124927944944924984c24a251249e5126124928f26f84a24a28928924925184fe49509e4c24924fe50';
+
     // variables
     let g, map, svg, tooltip, projection;
     let paths;
@@ -364,7 +368,7 @@ ${link}
 </script>
 
 
-<!-- URL containing the seats -->
+<!-- HIDDEN url containing the seats -->
 <input type="text" value={seats_url} id="seats-url">
 
 
@@ -374,6 +378,16 @@ ${link}
 </div>
 
 
+<!-- Premade Projections -->
+<div id="projections">
+    <div id="projections-list">
+        <p><a href="?seats={SIGNATURE_2018}">Election 2018</a></p>
+        <p><a href="?seats={SIGNATURE_2022}">Projection 2022</a></p>
+    </div>
+</div>
+
+
+<!-- Top Bar -->
 <div id="topline-container">
 
     <!-- Reset Button -->
@@ -428,6 +442,32 @@ ${link}
 
 
 <style>
+
+    #projections {
+        position: absolute;
+        top: 64px;
+        bottom: 0px;
+        right: 0px;   
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    #projections-list {
+        border: 0.5px solid black;
+        border: 2px solid rgba(0,0,0,0.2);
+        border-radius: 4px;
+        background-color: white;
+        text-align: left;
+        padding: 0.5rem;
+    }
+
+    #projections-list p {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 6px;
+        margin-top: 6px;
+        cursor: pointer;
+    }
 
     #seats-url {
         position: absolute;
