@@ -332,6 +332,20 @@
 
         // reset
         seats_selection = {};
+
+        // check
+        const url = window.location.href;
+        if (!url.includes('seats=')) return;
+        const signature = url.split('seats=')[1];
+
+        // message
+        if (signature === SIGNATURE_2018) {
+            const msg = 'La carte montre le résultat de la dernière élection provinciale du 1er octobre 2018';
+            alert(msg)
+        } else if (signature === SIGNATURE_2022) {
+            const msg = 'La carte montre la projection de qc125 en date du 18 septembre 2022. Les circonscriptions vides sont les comtés pivots';
+            alert(msg)
+        }
     });     
     
     async function copy_to_clipboard() {
